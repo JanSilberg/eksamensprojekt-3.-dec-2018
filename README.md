@@ -13,7 +13,8 @@ Eksamensprojekt 3. december 2018 Maja, Malene, Jan
  - Github desktop vs Github online (browseren)
  - Issues
  - Mappestruktur (hvordan laver man mapper?)
- - Hvad er en branch? (vi skal have en hver)
+ - Hvad er en branch? (vi skal have en hver)(de er lavet)
+ - - Preview branch (Her samler vi kode og ser om det passer sammen, inden det merges til "master" branch)
  - Hvad vil det sige at merge en branch?
  - Forklaring af "projects" tab, og aftale hvordan vi vil styre den
  
