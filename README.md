@@ -13,6 +13,22 @@ Eksamensprojekt 3. december 2018 Maja, Malene, Jan
  - Github desktop vs Github online (browseren)
  - Issues
  - Mappestruktur (hvordan laver man mapper?)
+ - Hvad er en branch? (vi skal have en hver)
+ - Hvad vil det sige at merge en branch?
+ 
+
+<br>
+
+2. Lav en delt mappe i Onedrive, så vi hurtigt kan dele billeder mv.
+ - Vores kode-filer skal ikke ligge i en delt mappe, da vi så vil komme til at ændre hinandens koder uden pull-requests
+
+<br>
+
+OBS: Hvis man bruger Github Desktop skal man have alle filerne lokalt, hver især på sin computer.
+ Hvis man bruger Github online (browser) har man kun sine EGNE kode-filer på computeren. 
+For at undgå at overskrive hinandens koder, vil det blive nøje gennemgået inden, så alle forstår forskelle mv.
+
+Eventuelt kan man hver især have en mappe i Onedrive, hvor man gemmer sine egne ændringer, og så kan Jan (eller vi sammen på skolen) synkronisere filerne med hinanden, så der ikke opstår problemer.
 
 <br><br>
 
