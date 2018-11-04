@@ -26,6 +26,8 @@ Eksamensprojekt 3. december 2018 Maja, Malene, Jan
 
 2. Lav en delt mappe i Onedrive, så vi hurtigt kan dele billeder mv.
  - Vores kode-filer skal ikke ligge i en delt mappe, da vi så vil komme til at ændre hinandens koder uden pull-requests
+ - CSS filer skal ligge i en mappe kaldet "Style", så alle CSS koder ser ens ud.
+ - Billeder skal ligge i en mappe kaldet "Images" så al kode refererer hen i samme mappe.
 
 <br><br><br>
 
