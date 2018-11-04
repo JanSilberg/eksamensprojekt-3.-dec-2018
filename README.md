@@ -15,6 +15,7 @@ Eksamensprojekt 3. december 2018 Maja, Malene, Jan
  - Mappestruktur (hvordan laver man mapper?)
  - Hvad er en branch? (vi skal have en hver)
  - Hvad vil det sige at merge en branch?
+ - Forklaring af "projects" tab, og aftale hvordan vi vil styre den
  
 
 <br><br>
