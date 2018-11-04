@@ -37,6 +37,7 @@ Eventuelt kan man hver især have en mappe i Onedrive, hvor man gemmer sine egne
  - Hvor ofte vil vi gerne mødes?
  - Hvordan arbejder vi bedst? (på skolen, sammen med andre, alene, hjemme, med musik mv.)
  - Hvem står for hvad? (design, kodning, github)
+ - Scrum opsætning (sprints, reviews mv)
  
 
 <br><br><br>
