@@ -26,4 +26,12 @@
  - Pull-requests
  - Issues
  - Scrum Board (projects)
+
+
+ <br><br><br><br>
  
+ <b>Hvad styres i Github Desktop (programmet)?</b>
+
+ - Commits
+ - Push
+ - Pull
