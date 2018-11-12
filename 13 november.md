@@ -18,3 +18,7 @@
  - Hvad vil det sige at merge en branch?
  
  - Forklaring af "projects" tab, og aftale hvordan vi vil styre den
+
+ <br><br><br><br>
+
+ <b>Hvad styres i browseren?</b>
