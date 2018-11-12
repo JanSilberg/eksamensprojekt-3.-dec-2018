@@ -1,3 +1,5 @@
+
+
 1. Gennemgå Github:
  - Pull
  - Push
@@ -38,3 +40,6 @@
  - Commits
  - Push
  - Pull
+ 
+ 
+ Jeg kan godt lide kage.
