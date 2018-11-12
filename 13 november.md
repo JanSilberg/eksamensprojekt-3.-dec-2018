@@ -22,3 +22,8 @@
  <br><br><br><br>
 
  <b>Hvad styres i browseren?</b>
+
+ - Pull-requests
+ - Issues
+ - Scrum Board (projects)
+ 
