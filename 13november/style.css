@@ -185,3 +185,86 @@ nav #dagsorden h1 {
     border-radius: 30px;
     box-shadow: 10px 10px;
 }
+
+#merging img {
+    width: 30%;
+    transition: all 1s ease-in-out;
+}
+
+#merging img:hover {
+    transform: scale(5)
+}
+
+
+#issues {
+    grid-area:  44 / 2 / span 2 / span 3;
+    text-align: center;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
+
+#issues img {
+    width: 20%;
+    transition: all 1s ease-in-out;
+}
+
+#issues img:hover {
+    transform: scale(5)
+}
+
+
+
+#mappestruktur {
+    grid-area:  50 / 2 / span 2 / span 3;
+    text-align: center;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
+
+#mappestruktur img {
+    width: 15%;
+    transition: all 1s ease-in-out;
+}
+
+#mappestruktur img:hover {
+    transform: scale(6)
+}
+
+
+
+#projects {
+    grid-area:  56 / 2 / span 2 / span 3;
+    text-align: center;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
+
+#projects img {
+    width: 25%;
+    transition: all 1s ease-in-out;
+}
+
+#projects img:hover {
+    transform: scale(6)
+}
+
+
+#versus {
+    grid-area:  62 / 2 / span 2 / span 3;
+    text-align: center;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
+
+#versus img {
+    width: 15%;
+    transition: all 1s ease-in-out;
+}
+
+#versus img:hover {
+    transform: scale(6)
+}
