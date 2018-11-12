@@ -160,8 +160,26 @@ nav #dagsorden h1 {
 }
 
 
-#mergin {
-    grid-area:  30 / 2 / span 2 / span 3;
+#pull-request {
+    grid-area:  32 / 2 / span 2 / span 3;
+    text-align: center;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
+
+#pull-request img {
+    width: 10%;
+    transition: all 1s ease-in-out;
+}
+
+#pull-request img:hover {
+    transform: scale(8)
+}
+
+
+#merging {
+    grid-area:  38 / 2 / span 2 / span 3;
     text-align: center;
     background: orange;
     border-radius: 30px;
