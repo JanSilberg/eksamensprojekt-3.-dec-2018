@@ -4,10 +4,10 @@
  - Commit
  - Pull-request
  - Github desktop vs Github online (browseren)
-   - Github desktop = Man kan commit direkte, når man har ændret sin lokale fil. 
+    - Github desktop = Man kan commit direkte, når man har ændret sin lokale fil. 
         - Dermed kan man bare skrive sin kommentar, og push sine commits, og så kode videre.
-
-   - Github online = Man committer ved at copy/paste sin kode direkte over i Github editoren i browseren, og dermed kan der stort set ikke gå noget galt, da browseren altid er opdateret. Commits er langsommere, men kan gøres mere grundige da de gøres manuelt og ikke automatisk.
+<br>
+    - Github online = Man committer ved at copy/paste sin kode direkte over i Github editoren i browseren, og dermed kan der stort set ikke gå noget galt, da browseren altid er opdateret. Commits er langsommere, men kan gøres mere grundige da de gøres manuelt og ikke automatisk.
 
  - Issues
 
