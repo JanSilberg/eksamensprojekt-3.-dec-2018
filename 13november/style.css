@@ -69,12 +69,15 @@ nav {
     background: black;
     border-radius: 30px;
     position: fixed;
-    width: 17%;
+    width: 18%;
+    box-shadow: 0 0 20px;
 }
 
 
 nav ul li{
     list-style: none;
+    max-width: 90%;
+    margin-top: 5%
 }
 
 
@@ -87,7 +90,7 @@ nav ul li a {
     padding: 6px;
     border-radius: 30px;
     transition: all .3s ease-in-out;
-    box-shadow: 3px 2px;
+    box-shadow: 3px 2px 5px;
     border: 1px solid orange;
     text-align: center;
     line-height: 100%;
@@ -119,6 +122,8 @@ nav ul h1 {
     list-style: none;
     line-height: 2vw;
     font-weight: bold;
+    border: 1px solid black;
+    max-width: 80%
 }
 
 
@@ -278,5 +283,5 @@ nav ul h1 {
 }
 
 #versus img:hover {
-    transform: scale(6)
+    transform: scale(6) translate(0px, -60px);
 }
