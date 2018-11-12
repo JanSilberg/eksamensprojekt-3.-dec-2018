@@ -1,4 +1,4 @@
-1. Gennemgå Github så alle ved hvad det vil sige at:
+1. Gennemgå Github:
  - Pull
  - Push
  - Commit
