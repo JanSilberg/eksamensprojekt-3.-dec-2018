@@ -158,3 +158,12 @@ nav #dagsorden h1 {
 #branch img:hover {
     transform: scale(5)
 }
+
+
+#mergin {
+    grid-area:  30 / 2 / span 2 / span 3;
+    text-align: center;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
