@@ -2,12 +2,159 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 1fr;
+    margin: 0 auto;
 }
 
 body {
     background-color: aquamarine;
+    padding: 0;
+}
+
+p {
+    font-size: 1vw;
 }
 
 img {
     max-width: 100%;
+}
+
+#github-logo {
+    grid-area: 1 / 2 / span 3 / span 3;
+    width: 60%;
+    justify-self: center;
+    align-self: center;
+}
+
+#formål {
+    grid-area: 4 / 2 / span 1 / span 3;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#jan {
+    grid-area: 1 / 5 / span 2 / span 1;
+    width: 100%;
+    transition: all 1.5s ease-in-out;
+}
+
+#jan:hover {
+    transform: scale(2) translate(-60%, 30%);
+}
+
+
+
+
+
+#myBtn {
+    position: fixed;
+    left: 6%;
+    top: 2%;
+    background: red;
+    border-color: red;
+    font-weight: bold;
+}
+
+#myBtn:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+nav {
+    grid-area: 2 / 1 / span 5 / span 1;
+    line-height: 2.5em;
+    font-size: 1vw;
+    background: darkgrey;
+    border-radius: 30px;
+    position: fixed;
+    width: 18%;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 2px;
+    width: 3vw;
+    border-radius: 30px;
+    transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+}
+
+
+
+
+nav #dagsorden h1 {
+    font-size: 3vw;
+}
+
+#explanation {
+    position: fixed;
+    right: .4%;
+    top: 40%;
+    background: dodgerblue;
+    width: 19%;
+}
+
+#explanation li {
+    list-style: none;
+    line-height: 2vw;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+#pull {
+    grid-area: 8 / 2 / span 2 / span 3;
+    text-align: center;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
+
+
+#push {
+    grid-area:  14 / 2 / span 2 / span 3;
+    text-align: center;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
+
+#commit {
+    grid-area:  20 / 2 / span 2 / span 3;
+    text-align: center;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
+
+#branch {
+    grid-area:  26 / 2 / span 2 / span 3;
+    text-align: center;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
+
+#branch img {
+    width: 30%;
+    transition: all 1s ease-in-out;
+}
+
+#branch img:hover {
+    transform: scale(5)
 }

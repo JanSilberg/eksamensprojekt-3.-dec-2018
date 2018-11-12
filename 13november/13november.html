@@ -9,25 +9,100 @@
 </head>
 
 
+<script>
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        } 
+</script>
+
 
 <body>
 <div id="wrapper">
 
-    <h1>Github</h1>
+
+
+
+    <img id="github-logo" src="github-logo.png" alt="github logo">
+
+    <img id="jan" src="jan.JPG" alt="Jan spiser">
+
+
+    <p id="formål">Formålet er at forstå de forskellige begreber, og vide hvad de gør.</p>
+
+
 
 <nav>
     <ul>
-        <li>
-            <p>Github</p>
-        </li>
+        <h1>Dagsorden:</h1>
+        <li><a href="#pull">Pull</a></li>
+        <li><a href="#push">Push</a></li>
+        <li><a href="#commit">Commit</a></li>
+        <li><a href="#branch">Branch</a></li>
+        <li><a href="">Pull-request</a></li>
+        <li><a href="">Merging</a></li>
+        <li><a href="">Github Desktop vs Github online</a></li>
+        <li><a href="">Issues</a></li>
+        <li><a href="">Mappestruktur</a></li>
+        <li><a href="">Projects / scrum</a></li>
     </ul>
 </nav>
 
+<div id="explanation">
+    <ul>
+        <h3>Ordliste</h3>
+        <li>Repository = depot</li>
+        <li>Pull = hive data</li>
+        <li>Push = skubbe data</li>
+        <li>Branch = en sideløbende version</li>
+        <li>Merge = at flette data</li>
+        <li>Master = den originale branch</li>
+    </ul>
+</div>
+
+
+
+
+<article id="pull">
+    <h1>Pull</h1>
+    <p>Når man "puller" så hiver man data ned fra det remote repository man har.</p>
+    <p>Det vil sige, at det er det repository, som ligger online (i browseren).</p>
+</article>
+
+
+<article id="push">
+    <h1>Push</h1>
+    <p>Når man "pusher" så skubber man data ud til det remote repository man har.</p>
+    <p>Det vil sige, at de ændringer man har foretaget skubber man ud til serveren.</p>
+</article>
+
+<article id="commit">
+    <h1>Commit</h1>
+    <p>Når man "committer" så accepterer man de ændringer, som man selv har lavet.</p>
+    <p>Det vil sige, at når man har lavet ændringer enten online eller lokalt, så skal man acceptere de ændringer før, at de ændringer kan pushes.</p>
+</article>
+
+<article id="branch">
+    <h1>Branch</h1>
+    <p>En branch er en gren, som "stikker ud" fra ens oprindelige version af filerne.</p>
+    <img src="branch.png" alt="">
+</article>
+
+<article id="pull-request">
+    <h1>Pull-request</h1>
+    <p>En pull-request er en anmodning om, at få lov at ændre i de data, som allerede findes.</p>
+</article>
 
 
 
 
 
+
+
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Gå til toppen af poppen</button> 
 
 
 
