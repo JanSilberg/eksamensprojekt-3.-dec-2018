@@ -3,6 +3,8 @@
  - Push
  - Commit
  - Pull-request
+     - Hvad vil det sige at merge en branch?
+     
  - Github desktop vs Github online (browseren)
     - Github desktop = Man kan commit direkte, når man har ændret sin lokale fil. 
         - Dermed kan man bare skrive sin kommentar, og push sine commits, og så kode videre.
@@ -16,9 +18,9 @@
  - Hvad er en branch? (vi skal have en hver)(de er lavet)
    - Preview branch (Her samler vi kode og ser om det passer sammen, inden det merges til "master" branch)
  
- - Hvad vil det sige at merge en branch?
+
  
- - Forklaring af "projects" tab, og aftale hvordan vi vil styre den
+ - "Projects" tabben
 
  <br><br><br><br>
 
