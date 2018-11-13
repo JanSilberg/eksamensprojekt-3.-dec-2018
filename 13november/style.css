@@ -73,11 +73,16 @@ nav {
     box-shadow: 0 0 20px;
 }
 
+nav ul {
+    padding: 0;
+}
 
 nav ul li{
     list-style: none;
     max-width: 90%;
-    margin-top: 5%
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
