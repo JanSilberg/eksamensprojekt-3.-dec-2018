@@ -54,6 +54,8 @@ ol, ul {
 /* Smartphone størrelse */
 /* Smartphone størrelse */
 
+/* #region Smartphone query */
+
 @media only screen and (max-width: 741px) {
 
 
@@ -129,6 +131,8 @@ body {
 
 } /* "}" Denne skal ikke fjernes, da den hører til media query */
 
+/* #endregion */
+
 
 
 
@@ -136,6 +140,8 @@ body {
 /* Tablet størrelse */
 /* Tablet størrelse */
 /* Tablet størrelse */
+
+/* #region Tablet query */
 
 @media only screen and (max-width: 1024px) {
 
@@ -143,3 +149,5 @@ body {
 
 
 }  /* "}" Denne skal ikke fjernes, da den hører til media query */
+
+/* #endregion */
