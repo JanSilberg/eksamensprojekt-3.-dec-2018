@@ -23,13 +23,33 @@ ol, ul {
 	list-style: none;
 }
 
+
+
+
+
+
+
 /* Smartphone størrelse */
 @media only screen (max-width: 740px) {
+
+.br-logo {
+    width: 3vw;
+}
+
+
 
 }
 
 
+
+
+
+
+
 /* Tablet størrelse */
 @media only screen (max-width: 1024px) {
+
+
+
 
 }
