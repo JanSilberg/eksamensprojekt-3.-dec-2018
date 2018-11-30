@@ -1,1 +1,27 @@
-Tom fælles CSS fil
+/* Grid wrapper */
+.wrapper {
+    display: grid;
+    margin: 0 auto;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(12, 1fr)
+}
+
+/* Gør alle billeder responsive fra start */
+img {
+    max-width: 100%;
+}
+
+/* Fjerner padding */
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1vw;
+}
+
+/* Fjerner prikken fra lister */
+ol, ul {
+	list-style: none;
+}
+
+
+@media only screen (max-width)
