@@ -4,8 +4,6 @@ Eksamensprojekt 3. december 2018 Maja, Malene, Jan
 
 
 
-<strong>TO DO UPFRONT:</strong>
-
  - CSS filer skal ligge i en mappe kaldet "Style", så alle CSS koder ser ens ud.
  - Billeder skal ligge i en mappe kaldet "Images" så al kode refererer hen i samme mappe.
 
