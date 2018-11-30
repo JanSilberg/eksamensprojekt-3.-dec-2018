@@ -43,7 +43,9 @@ ol, ul {
 
 
 
-
+.burger-menu {
+    display: none;
+}
 
 
 
@@ -91,6 +93,7 @@ body {
 
 .burger-menu {
     grid-area: 1 / 1 / span 2 / span 2;
+    display: unset
 }
 
 .burger-menu:hover {
