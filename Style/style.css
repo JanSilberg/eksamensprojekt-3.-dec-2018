@@ -15,7 +15,7 @@ img {
 body {
     padding: 0;
     margin: 0;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 /* Fjerner prikken fra lister */
@@ -25,7 +25,7 @@ ol, ul {
 
 /* Smartphone størrelse */
 @media only screen (max-width: 740px) {
-    
+
 }
 
 
