@@ -46,7 +46,7 @@ body {
     grid-area: 1 / 6 / span 2 / span 2;
     justify-self: center;
     align-self: center;
-    width: 80%;
+    width: 85%;
 }
 
 
@@ -60,15 +60,12 @@ body {
 
 
 .basket {
-    grid-area: 1 / 11 / span 2 / span 2;
+    grid-area: 1 / 10 / span 2 / span 3;
     justify-self: center;
     align-self: center;
     width: 80%;
 }
 
-.basket:hover {
-    transform: scale(1.5)
-}
 
 
 .gran {
