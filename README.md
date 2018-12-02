@@ -4,7 +4,7 @@ Eksamensprojekt 3. december 2018 Maja, Malene, Jan
 
 
 
- - CSS filer skal ligge i en mappe kaldet "Style", så alle CSS koder ser ens ud.
+ - CSS filer skal ligge i en mappe kaldet "Style", så alle html referencer til CSS filerne ser ens ud.
  - Billeder skal ligge i en mappe kaldet "Images" så al kode refererer hen i samme mappe.
 
 <br><br><br>
