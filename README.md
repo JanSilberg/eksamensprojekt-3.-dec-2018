@@ -13,7 +13,7 @@ Eksamensprojekt 3. december 2018 Maja, Malene, Jan
  - Scrum opsætning (sprints, reviews mv)
  - Vi skal lave sketches og wireframes.
  - Vi skal få familie, venner eller andet til at give feedback på siden, da det kan bruges i rapporten også.
- - Vi skal lave et sitemap (visuelt (microsoft visio alternativ))
+ - Vi skal lave et sitemap (visuelt (microsoft visio alternativ) og eventuelt som XML format (lang liste))
  
 
 <br><br><br>
