@@ -28,3 +28,5 @@ https://html-cleaner.com/css/ - CSS cleaner and compressor<br>
 https://search.google.com/test/mobile-friendly - Google mobile friendly TEST<br>
 https://pixabay.com/ - Gratis billeder<br>
 https://www.colourbox.com/education - Billeder (gratis med koden: 83209061301 (op til 30 billeder om måneden))
+https://validator.w3.org/#validate_by_input+with_options - W3 school HTML validation
+https://jigsaw.w3.org/css-validator/#validate_by_input - W3 school CSS validation
