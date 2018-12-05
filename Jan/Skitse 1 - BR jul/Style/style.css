@@ -8,19 +8,19 @@
     display: grid;
     margin: 0 auto;
     grid-auto-rows: 1fr;
-    grid-template-columns: repeat(12, 1fr)
+    grid-template-columns: repeat(6, 1fr)
 }
 
 
 
-/* Gør alle billeder responsive fra start */
+/* Vi har valgt, at gøre alle billeder responsive, som default, så vi ikke skal gentage det i koden */
 img {
     max-width: 100%;
 }
 
 
 
-/* Fjerner padding & margin fra body på alle sider, og laver teksten responsiv som standard */
+/* Fjerner padding & margin fra body på alle sider, og laver teksten responsiv som default */
 body {
     padding: 0;
     margin: 0;
@@ -29,12 +29,11 @@ body {
 
 
 
-/* Fjerner prikken fra lister, samt padding for en sikkerheds skyld */
+/* Vi har valgt, at fjerne prikkeer og padding fra lister som default, da vi ikke skal bruge dette */
 ol, ul {
     list-style: none;
     padding: 0;
 }
-
 
 
 /* #endregion */
@@ -43,9 +42,23 @@ ol, ul {
 
 
 
+
+
+
+
+
+/* #region Desktop standarder */
+
+/* Vi har valgt at fjerne burger-menuen i desktop størrelsen. */
 .burger-menu {
     display: none;
 }
+
+/* #endregion */
+
+
+
+
 
 
 
@@ -69,10 +82,21 @@ body {
 
 
 
+/* Vi har valgt, at lave vores menubaggrunden hvid, så den skilder sig ud fra resten af indholdet. */
+.menu-background-bottom {
+    grid-area: 1 / 1 / span 2 / span 6;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    z-index: -1;
+}
 
-.menu-background {
-    grid-area: 1 / 1 / span 2 / span 12;
-    background: white;
+.menu-background-top {
+    grid-area: 1 / 1 / span 2 / span 6;
+    background-color: white;
     z-index: -1;
 }
 
@@ -81,10 +105,10 @@ body {
 
 
 .br-logo {
-    grid-area: 1 / 6 / span 2 / span 2;
+    grid-area: 1 / 2 / span 2 / span 4;
     justify-self: center;
     align-self: center;
-    width: 85%;
+    width: 25%;
 }
 
 
@@ -93,7 +117,10 @@ body {
 
 .burger-menu {
     grid-area: 1 / 1 / span 2 / span 2;
-    display: unset
+    display: unset;
+    position: fixed;
+    bottom: 0;
+    width: 15%;
 }
 
 .burger-menu:hover {
@@ -101,15 +128,6 @@ body {
 }
 
 
-
-
-
-.basket {
-    grid-area: 1 / 10 / span 2 / span 3;
-    justify-self: center;
-    align-self: center;
-    width: 80%;
-}
 
 
 
@@ -124,7 +142,7 @@ body {
 
 
 .gran2 {
-    grid-area: 1 / 12 / 1 / 12;
+    grid-area: 1 / 6 / 1 / 6;
     transform: rotateY(180deg);
 }
 
@@ -132,9 +150,16 @@ body {
 
 
 
-} /* "}" Denne skal ikke fjernes, da den hører til media query */
+}
 
 /* #endregion */
+
+
+
+
+
+
+
 
 
 
@@ -148,9 +173,6 @@ body {
 
 @media only screen and (max-width: 1024px) {
 
-
-
-
-}  /* "}" Denne skal ikke fjernes, da den hører til media query */
+} 
 
 /* #endregion */
