@@ -59,6 +59,17 @@ ol, ul {
 
 
 
+.br-logo , .gran , .gran2 , .menu-background-bottom , .menu-background-top {
+    display: none;
+}
+
+#na {
+    grid-area: 3 / 2 / span 1 / span 4;
+    justify-self: center;
+}
+
+
+
 
 
 
@@ -80,8 +91,13 @@ body {
     background: lightgray;
 }
 
+.br-logo , .gran , .gran2 , .menu-background-bottom , .menu-background-top {
+    display: unset;
+}
 
-
+#na {
+   display: none;
+}
 
 /* Vi har valgt, at lave vores menubaggrunden hvid, så den skilder sig ud fra resten af indholdet. */
 .menu-background-bottom {
