@@ -1,0 +1,196 @@
+
+
+/* #region Standarder som er sat for hele filen */
+
+
+/* Grid wrapper - Indeholder hvordan Grid er sat op */
+.wrapper {
+    display: grid;
+    margin: 0 auto;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr)
+}
+
+
+
+/* Vi har valgt, at gøre alle billeder responsive, som default, så vi ikke skal gentage det i koden */
+img {
+    max-width: 100%;
+}
+
+
+
+/* Fjerner padding & margin fra body på alle sider, og laver teksten responsiv som default */
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+
+
+/* Vi har valgt, at fjerne prikkeer og padding fra lister som default, da vi ikke skal bruge dette */
+ol, ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* #endregion */
+
+
+
+
+
+
+
+/* Desktop størrelse */
+/* Desktop størrelse */
+/* Desktop størrelse */
+
+/* #region Desktop standarder */
+
+/* Vi har valgt at fjerne burger-menuen i desktop størrelsen. */
+.burger-menu {
+    display: none;
+}
+
+/* #endregion */
+
+
+
+.br-logo , .gran , .gran2 , .menu-background-bottom , .menu-background-top {
+    display: none;
+}
+
+#na {
+    grid-area: 3 / 2 / span 1 / span 4;
+    justify-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Smartphone størrelse */
+/* Smartphone størrelse */
+/* Smartphone størrelse */
+
+/* #region Smartphone query */
+
+@media only screen and (max-width: 813px) {
+
+
+
+body {
+    background: lightgray;
+}
+
+.br-logo , .gran , .gran2 , .menu-background-bottom , .menu-background-top {
+    display: unset;
+}
+
+#na {
+   display: none;
+}
+
+/* Vi har valgt, at lave vores menubaggrunden hvid, så den skilder sig ud fra resten af indholdet. */
+.menu-background-bottom {
+    grid-area: 1 / 1 / span 2 / span 6;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    z-index: -1;
+}
+
+.menu-background-top {
+    grid-area: 1 / 1 / span 2 / span 6;
+    background-color: white;
+    z-index: -1;
+}
+
+
+
+
+
+.br-logo {
+    grid-area: 1 / 2 / span 2 / span 4;
+    justify-self: center;
+    align-self: center;
+    width: 25%;
+}
+
+
+
+
+
+.burger-menu {
+    grid-area: 1 / 1 / span 2 / span 2;
+    display: unset;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+}
+
+.burger-menu:hover {
+    background: grey;
+}
+
+
+
+
+
+
+
+.gran {
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+
+
+
+
+.gran2 {
+    grid-area: 1 / 6 / 1 / 6;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+}
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet størrelse */
+/* Tablet størrelse */
+/* Tablet størrelse */
+
+/* #region Tablet query */
+
+@media only screen and (max-width: 1024px) {
+
+} 
+
+/* #endregion */
