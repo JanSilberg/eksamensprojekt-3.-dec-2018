@@ -131,6 +131,7 @@ body {
     grid-area: 1 / 1 / span 6 / span 6;
     z-index: -2;
     position: absolute;
+    
 }
 
 #back {
@@ -158,6 +159,9 @@ body {
     right: 5%;
 }
 
+#onskebogen {
+    grid-area: 4 / 2 / span 2 / span 4;
+}
 
 
 
