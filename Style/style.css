@@ -174,7 +174,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 12%;
+    height: 10%;
 }
 
 
@@ -206,10 +206,7 @@ nav ul li a:hover {
 /* #endregion */
 
 
-
-
-
-
+li~li { border-left: 1px solid white }
 
 
 
