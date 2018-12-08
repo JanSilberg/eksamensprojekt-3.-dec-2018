@@ -93,11 +93,7 @@ body {
 
 /* #endregion */
 
-#baggrund {
-    z-index: -5;
-    position: absolute;
-    width: 100%;    
-}
+
 
 
 
@@ -165,10 +161,60 @@ body {
 
 /* #region Content */
 
+#baggrund {
+    z-index: -10;
+    position: absolute;
+    width: 100%;    
+}
+
 .baggrund {
     grid-area: 20 / 1 / span 22 / span 6;
     width: 100%;
-    z-index: -4;
+    z-index: -9;
+}
+
+.baggrund2 {
+    grid-area: 41 / 1 / span 22 / span 6;
+    width: 100%;
+    z-index: -9;
+}
+
+.baggrund3 {
+    grid-area: 62 / 1 / span 22 / span 6;
+    width: 100%;
+    z-index: -9;
+}
+
+
+
+
+
+#rangle {
+    grid-area: 3 / 1 / span 5 / span 6;
+}
+
+
+#onskebogen {
+    grid-area: 8 / 2 / span 5 / span 4;
+}
+
+#santa {
+    grid-area: 12 / 1 / span 4 / span 6;
+    justify-self: center;
+    width: 50%;
+}
+
+
+#produkt-baggrund {
+    grid-area: 18 / 1 / span 2 / span 6;
+    background: white;
+    z-index: -2;
+}
+
+#velkommen {
+    grid-area: 18 / 1 / span 3 / span 6;
+    text-align: center;
+    font-size: .8em;
 }
 
 
@@ -253,33 +299,6 @@ nav ul li a:hover {
 
 
 
-#rangle {
-    grid-area: 3 / 1 / span 5 / span 6;
-}
-
-
-#onskebogen {
-    grid-area: 8 / 2 / span 5 / span 4;
-}
-
-#santa {
-    grid-area: 12 / 1 / span 4 / span 6;
-    justify-self: center;
-    width: 50%;
-}
-
-
-#produkt-baggrund {
-    grid-area: 18 / 1 / span 2 / span 6;
-    background: white;
-    z-index: -2;
-}
-
-#velkommen {
-    grid-area: 18 / 1 / span 3 / span 6;
-    text-align: center;
-    font-size: .8em;
-}
 
 /* #endregion */
 
