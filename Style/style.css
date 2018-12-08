@@ -51,7 +51,7 @@ ol, ul {
 /* #region Desktop standarder */
 
 
-.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search {
+.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen {
     display: none;
 }
 
@@ -77,19 +77,33 @@ ol, ul {
 
 @media only screen and (max-width: 813px) {
 
-
+/* #region Default values */
 
 body {
     background: lightgray;
 }
 
-.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search {
+.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen {
     display: unset;
 }
 
 #na {
    display: none;
 }
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+/* #region Header */
 
 /* Vi har valgt, at lave vores menubaggrunden hvid, så den skilder sig ud fra resten af indholdet. */
 .menu-background-bottom {
@@ -100,36 +114,20 @@ body {
     left: 0;
     width: 100%;
     height: 12%;
-    z-index: -1;
 }
-
-.menu-background-top {
-    grid-area: 1 / 1 / span 2 / span 6;
-    background-color: white;
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 12%;
-}
-
-
-
-
 
 .br-logo {
-    justify-self: center;
-    align-self: center;
     width: 15%;
     position: fixed;
+    z-index: 2;
     top: .6%;
+    left: 42.5%;
 }
 
 
 #baggrund {
     grid-area: 1 / 1 / span 6 / span 6;
-    z-index: -2;
+    z-index: -5;
     position: absolute;
     
 }
@@ -139,6 +137,7 @@ body {
     width: 25%;
     align-self: center;
     justify-self: center;
+    z-index: 2;
 }
 
 #scan {
@@ -148,6 +147,7 @@ body {
     position: fixed;
     top: 2%;
     left: 5%;
+    z-index: 2;
 }
 
 #search {
@@ -156,15 +156,72 @@ body {
     width: 10%;
     position: fixed;
     top: 2%;
+    z-index: 2;
     right: 5%;
 }
 
-#onskebogen {
-    grid-area: 4 / 2 / span 2 / span 4;
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+/* #region Footer */
+
+.menu-background-top {
+    grid-area: 1 / 1 / span 2 / span 6;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
+}
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+#rangle {
+    grid-area: 3 / 1 / span 5 / span 6;
 }
 
 
+#onskebogen {
+    grid-area: 8 / 2 / span 5 / span 4;
+}
 
+#santa {
+    grid-area: 12 / 1 / span 4 / span 6;
+    justify-self: center;
+    width: 50%;
+}
+
+
+#produkt-baggrund {
+    grid-area: 18 / 1 / span 10 / span 6;
+    background: white;
+    z-index: -2;
+}
+
+#velkommen {
+    grid-area: 18 / 1 / span 3 / span 6;
+    text-align: center;
+    font-size: .8em;
+}
 
 
 
