@@ -193,6 +193,8 @@ nav ul li {
     text-align: center;
 }
 
+li~li { border-left: 1px solid white; height: 150%;}
+
 nav ul li a {
     text-decoration: none;
     color: white;
@@ -206,7 +208,6 @@ nav ul li a:hover {
 /* #endregion */
 
 
-li~li { border-left: 1px solid white; height: 300%}
 
 
 
