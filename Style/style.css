@@ -118,12 +118,11 @@ body {
 
 
 .br-logo {
-    justify-self: center;
-    align-self: center;
     width: 15%;
     position: fixed;
     z-index: 2;
     top: .6%;
+    left: 42.5%;
 }
 
 
