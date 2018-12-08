@@ -100,13 +100,12 @@ body {
     left: 0;
     width: 100%;
     height: 12%;
-    z-index: -1;
+    z-index: -3;
 }
 
 .menu-background-top {
     grid-area: 1 / 1 / span 2 / span 6;
     background-color: white;
-    z-index: -1;
     position: fixed;
     top: 0;
     left: 0;
@@ -123,13 +122,14 @@ body {
     align-self: center;
     width: 15%;
     position: fixed;
+    z-index: 2;
     top: .6%;
 }
 
 
 #baggrund {
     grid-area: 1 / 1 / span 6 / span 6;
-    z-index: -2;
+    z-index: -5;
     position: absolute;
     
 }
@@ -139,6 +139,7 @@ body {
     width: 25%;
     align-self: center;
     justify-self: center;
+    z-index: 2;
 }
 
 #scan {
@@ -148,6 +149,7 @@ body {
     position: fixed;
     top: 2%;
     left: 5%;
+    z-index: 2;
 }
 
 #search {
@@ -156,8 +158,16 @@ body {
     width: 10%;
     position: fixed;
     top: 2%;
+    z-index: 2;
     right: 5%;
 }
+
+
+#rangle {
+    grid-area: 2 / 1 / span 5 / span 6;
+    height: 80%;
+}
+
 
 #onskebogen {
     grid-area: 6 / 2 / span 2 / span 4;
@@ -167,7 +177,7 @@ body {
 #produkt-baggrund {
     grid-area: 9 / 1 / span 10 / span 6;
     background: white;
-    z-index: -1;
+    z-index: -2;
 }
 
 #velkommen {
