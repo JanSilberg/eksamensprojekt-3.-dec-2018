@@ -51,7 +51,7 @@ ol, ul {
 /* #region Desktop standarder */
 
 
-.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen {
+.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen , .baggrund , .baggrund2 , .baggrund3 {
     display: none;
 }
 
