@@ -219,7 +219,7 @@ nav ul li a:hover {
     align-self: center;
 }
 
-#menu a {
+#menu a~a {
     border-left: 1px solid white;
     height: 500%;
 }
