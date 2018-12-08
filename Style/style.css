@@ -53,7 +53,7 @@ ol, ul {
 
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
  #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
-  .baggrund1 , .baggrund2 , .baggrund3 , nav , #santa {
+  .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa {
     display: none;
 }
 
@@ -87,7 +87,7 @@ body {
 
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
  #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
-  .baggrund1 , .baggrund2 , .baggrund3 , nav , #santa {
+  .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa {
     display: unset;
 }
 
@@ -171,19 +171,19 @@ body {
     width: 100%;    
 }
 
-.baggrund1 {
+.baggrund2 {
     grid-area: 20 / 1 / span 22 / span 6;
     width: 100%;
     z-index: -9;
 }
 
-.baggrund2 {
+.baggrund3 {
     grid-area: 41 / 1 / span 22 / span 6;
     width: 100%;
     z-index: -9;
 }
 
-.baggrund3 {
+.baggrund4 {
     grid-area: 62 / 1 / span 22 / span 6;
     width: 100%;
     z-index: -9;
