@@ -50,14 +50,6 @@ ol, ul {
 
 /* #region Desktop standarder */
 
-/* Vi har valgt at fjerne burger-menuen i desktop størrelsen. */
-.burger-menu {
-    display: none;
-}
-
-/* #endregion */
-
-
 
 .br-logo , .menu-background-bottom , .menu-background-top {
     display: none;
@@ -69,7 +61,7 @@ ol, ul {
 }
 
 
-
+/* #endregion */
 
 
 
@@ -127,30 +119,6 @@ body {
     align-self: center;
     width: 25%;
 }
-
-
-
-
-
-.burger-menu {
-    grid-area: 1 / 1 / span 2 / span 2;
-    display: unset;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 15%;
-}
-
-.burger-menu:hover {
-    background: grey;
-}
-
-
-
-
-
-
-
 
 
 
