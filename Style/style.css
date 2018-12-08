@@ -95,6 +95,34 @@ body {
    display: none;
 }
 
+
+
+.baggrund {
+    z-index: -10;
+    position: absolute;
+    width: 100%;    
+}
+
+.baggrund2 {
+    grid-area: 20 / 1 / span 22 / span 6;
+    width: 100%;
+    z-index: -9;
+}
+
+.baggrund3 {
+    grid-area: 41 / 1 / span 22 / span 6;
+    width: 100%;
+    z-index: -9;
+}
+
+.baggrund4 {
+    grid-area: 62 / 1 / span 22 / span 6;
+    width: 100%;
+    z-index: -9;
+}
+
+
+
 /* #endregion */
 
 
@@ -165,34 +193,6 @@ body {
 
 /* #region Content */
 
-.baggrund {
-    z-index: -10;
-    position: absolute;
-    width: 100%;    
-}
-
-.baggrund2 {
-    grid-area: 20 / 1 / span 22 / span 6;
-    width: 100%;
-    z-index: -9;
-}
-
-.baggrund3 {
-    grid-area: 41 / 1 / span 22 / span 6;
-    width: 100%;
-    z-index: -9;
-}
-
-.baggrund4 {
-    grid-area: 62 / 1 / span 22 / span 6;
-    width: 100%;
-    z-index: -9;
-}
-
-
-
-
-
 #rangle {
     grid-area: 3 / 1 / span 5 / span 6;
 }
@@ -224,6 +224,11 @@ body {
 
 
 
+.produkt1 {
+    grid-area: 22 / 4 / span 5 / span 4;
+    width: 50%;
+    justify-self: center;
+}
 
 
 
