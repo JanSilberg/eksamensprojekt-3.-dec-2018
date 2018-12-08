@@ -51,7 +51,7 @@ ol, ul {
 /* #region Desktop standarder */
 
 
-.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search , #onskebogen , #produkt-baggrund {
+.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen {
     display: none;
 }
 
@@ -83,7 +83,7 @@ body {
     background: lightgray;
 }
 
-.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search , #onskebogen , #produkt-baggrund {
+.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen {
     display: unset;
 }
 
@@ -100,7 +100,6 @@ body {
     left: 0;
     width: 100%;
     height: 12%;
-    z-index: -3;
 }
 
 .menu-background-top {
@@ -179,13 +178,13 @@ body {
 
 
 #produkt-baggrund {
-    grid-area: 13 / 1 / span 10 / span 6;
+    grid-area: 18 / 1 / span 10 / span 6;
     background: white;
     z-index: -2;
 }
 
 #velkommen {
-    grid-area: 13 / 1 / span 3 / span 6;
+    grid-area: 18 / 1 / span 3 / span 6;
     text-align: center;
     font-size: .8em;
 }
