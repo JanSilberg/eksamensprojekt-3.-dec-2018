@@ -59,7 +59,7 @@ ol, ul {
 
 
 
-.br-logo , .gran , .gran2 , .menu-background-bottom , .menu-background-top {
+.br-logo , .menu-background-bottom , .menu-background-top {
     display: none;
 }
 
@@ -91,7 +91,7 @@ body {
     background: lightgray;
 }
 
-.br-logo , .gran , .gran2 , .menu-background-bottom , .menu-background-top {
+.br-logo , .menu-background-bottom , .menu-background-top {
     display: unset;
 }
 
@@ -150,19 +150,6 @@ body {
 
 
 
-
-.gran {
-    grid-area: 1 / 1 / 1 / 1;
-}
-
-
-
-
-
-.gran2 {
-    grid-area: 1 / 6 / 1 / 6;
-    transform: rotateY(180deg);
-}
 
 
 
