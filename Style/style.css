@@ -115,7 +115,7 @@ body {
 
 
 
-
+/* #region Header */
 
 .br-logo {
     width: 15%;
@@ -161,26 +161,31 @@ body {
     right: 5%;
 }
 
+/* #endregion */
+
+
+
+
+
 
 #rangle {
-    grid-area: 2 / 1 / span 5 / span 6;
-    height: 80%;
+    grid-area: 3 / 1 / span 5 / span 6;
 }
 
 
 #onskebogen {
-    grid-area: 6 / 2 / span 2 / span 4;
+    grid-area: 9 / 2 / span 5 / span 4;
 }
 
 
 #produkt-baggrund {
-    grid-area: 9 / 1 / span 10 / span 6;
+    grid-area: 13 / 1 / span 10 / span 6;
     background: white;
     z-index: -2;
 }
 
 #velkommen {
-    grid-area: 9 / 1 / span 3 / span 6;
+    grid-area: 13 / 1 / span 3 / span 6;
     text-align: center;
     font-size: .8em;
 }
