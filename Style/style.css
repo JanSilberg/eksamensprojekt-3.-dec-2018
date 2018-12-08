@@ -170,13 +170,37 @@ body {
 /* #region Footer */
 
 .menu-background-bottom {
-    grid-area: 1 / 1 / span 2 / span 6;
     background-color: #DE4343;
     position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
     height: 12%;
+}
+
+
+nav {
+    position: fixed;
+    bottom: 0%; 
+    width: 100%;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* #endregion */
