@@ -132,7 +132,37 @@ body {
 
 
 
+.burger-menu {
+    grid-area: 1 / 1 / span 2 / span 2;
+    display: unset;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+}
 
+.burger-menu:hover {
+    background: grey;
+}
+
+
+
+
+
+
+
+.gran {
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+
+
+
+
+.gran2 {
+    grid-area: 1 / 6 / 1 / 6;
+    transform: rotateY(180deg);
+}
 
 
 
