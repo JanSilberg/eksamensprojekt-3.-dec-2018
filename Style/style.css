@@ -51,7 +51,7 @@ ol, ul {
 /* #region Desktop standarder */
 
 
-.br-logo , .menu-background-bottom , .menu-background-top , #baggrund {
+.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search {
     display: none;
 }
 
@@ -83,7 +83,7 @@ body {
     background: lightgray;
 }
 
-.br-logo , .menu-background-bottom , .menu-background-top , #baggrund {
+.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search {
     display: unset;
 }
 
@@ -119,10 +119,11 @@ body {
 
 
 .br-logo {
-    grid-area: 1 / 2 / span 2 / span 4;
     justify-self: center;
     align-self: center;
-    width: 25%;
+    width: 15%;
+    position: fixed;
+    top: .6%;
 }
 
 
@@ -132,11 +133,30 @@ body {
     position: absolute;
 }
 
+#back {
+    grid-area: 1 / 1 / span 2 / span 1;
+    width: 25%;
+    align-self: center;
+    justify-self: center;
+}
 
+#scan {
+    align-self: center;
+    justify-self: center;
+    width: 12%;
+    position: fixed;
+    top: 2%;
+    left: 5%;
+}
 
-
-
-
+#search {
+    align-self: center;
+    justify-self: center;
+    width: 10%;
+    position: fixed;
+    top: 2%;
+    right: 5%;
+}
 
 
 
