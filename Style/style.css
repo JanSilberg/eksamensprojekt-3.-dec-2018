@@ -225,8 +225,27 @@ body {
 
 /* Produkt1 er første produkt. */
 .produkt1 {
-    grid-area: 22 / 2 / span 5 / span 5;
+    grid-area: 22 / 1 / span 5 / span 4;
     width: 60%;
+    justify-self: center;
+}
+
+.se-mere {
+    
+}
+
+.se-mere-produkt1 {
+    grid-area: 22 / 5 / span 2 / span 2;
+    color: white;
+    text-decoration: none;
+    background: #DE4343;
+    justify-self: center;
+    width: 80%;
+    text-align: center;
+}
+
+.se-mere-produkt1 p {
+
 }
 
 /* Produkt2 er andet produkt, som er placeret til vestre. */
