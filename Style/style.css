@@ -355,6 +355,25 @@ body {
 
 
 
+/* Produkt 6 */
+.produkt6 {
+    grid-area: 54 / 4 / span 6 / span 3;
+    width: 70%;
+    justify-self: center;
+}
+
+.se-mere-produkt6 {
+    grid-area: 54 / 1 / span 2 / span 3;
+}
+
+.wishlist-produkt6 {
+    grid-area: 57 / 1 / span 1 / span 3;
+}
+
+
+
+
+
 
 
 
