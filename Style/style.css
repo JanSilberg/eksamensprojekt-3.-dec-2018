@@ -335,6 +335,25 @@ body {
 
 
 
+/* Produkt 5 */
+.produkt5 {
+    grid-area: 48 / 1 / span 5 / span 5;
+    width: 50%;
+    left: 3%;
+    position: relative;
+}
+
+.se-mere-produkt5 {
+    grid-area: 48 / 4 / span 2 / span 3;
+}
+
+.wishlist-produkt5 {
+    grid-area: 51 / 4 / span 1 / span 3;
+}
+
+
+
+
 
 
 
