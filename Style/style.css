@@ -52,8 +52,9 @@ ol, ul {
 
 
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
- #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
-  .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa {
+#back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
+.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
+.produkt5 , .produkt6 , .se-mere , .wishlist , #vend {
     display: none;
 }
 
@@ -66,7 +67,16 @@ ol, ul {
 /* #endregion */
 
 
+@media only screen and (orientation: landscape) {
 
+
+
+#vend {
+    grid-area: 3 / 2 / span 1 / span 4;
+    justify-self: center;
+}
+
+}
 
 
 
@@ -86,8 +96,9 @@ body {
 }
 
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
- #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
-  .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa {
+#back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
+.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
+.produkt5 , .produkt6 , .se-mere , .wishlist {
     display: unset;
 }
 
