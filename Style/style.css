@@ -225,28 +225,33 @@ body {
 
 /* Produkt1 er første produkt. */
 .produkt1 {
-    grid-area: 22 / 1 / span 5 / span 4;
+    grid-area: 22 / 1 / span 5 / span 5;
     width: 60%;
-    justify-self: center;
+    left: 3%;
+    position: relative;
 }
 
 .se-mere {
-    
-}
-
-.se-mere-produkt1 {
-    grid-area: 22 / 5 / span 2 / span 2;
     color: white;
     text-decoration: none;
     background: #DE4343;
+    text-align: center;   
     justify-self: center;
-    width: 80%;
-    text-align: center;
+    align-self: center;
+    width: 70%;
+    height: 80%;
 }
 
-.se-mere-produkt1 p {
-
+.se-mere-produkt1 {
+    grid-area: 22 / 4 / span 2 / span 3;
 }
+
+form {
+    grid-area: 24 / 4 / span 2 / span 3;
+    font-size: .8em;
+    justify-self: center;
+}
+
 
 /* Produkt2 er andet produkt, som er placeret til vestre. */
 .produkt2 {
