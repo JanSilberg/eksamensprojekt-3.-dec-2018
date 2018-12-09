@@ -223,13 +223,14 @@ body {
 
 
 
-/* Produkt1 er første produkt. */
-.produkt1 {
-    grid-area: 22 / 1 / span 5 / span 5;
-    width: 60%;
-    left: 3%;
-    position: relative;
-}
+
+
+
+
+
+
+
+
 
 .se-mere {
     color: white;
@@ -242,25 +243,55 @@ body {
     height: 80%;
 }
 
-.se-mere-produkt1 {
-    grid-area: 22 / 4 / span 2 / span 3;
-}
-
-form {
-    grid-area: 24 / 4 / span 2 / span 3;
+.wishlist {
     font-size: .8em;
     justify-self: center;
 }
 
 
-/* Produkt2 er andet produkt, som er placeret til vestre. */
+
+
+
+
+
+
+
+
+/* Produkt1 er første produkt. */
+.produkt1 {
+    grid-area: 22 / 1 / span 5 / span 5;
+    width: 60%;
+    left: 3%;
+    position: relative;
+}
+
+.se-mere-produkt1 {
+    grid-area: 22 / 4 / span 2 / span 3;
+}
+
+.wishlist-produkt1 {
+    grid-area: 25 / 4 / span 1 / span 3;
+}
+
+
+
+
+
+
+/* Produkt2 er andet produkt. */
 .produkt2 {
-    grid-area: 27 / 1 / span 3 / span 4;
+    grid-area: 27 / 4 / span 5 / span 3;
     width: 70%;
     justify-self: center;
 }
 
+.se-mere-produkt2 {
+    grid-area: 27 / 1 / span 2 / span 3;
+}
 
+.wishlist-produkt2 {
+    grid-area: 30 / 1 / span 1 / span 3;
+}
 
 
 
