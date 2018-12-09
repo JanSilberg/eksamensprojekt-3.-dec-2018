@@ -230,7 +230,12 @@ body {
     justify-self: center;
 }
 
-
+/* Produkt2 er andet produkt, som er placeret til vestre. */
+.produkt1 {
+    grid-area: 22 / 4 / span 5 / span 4;
+    width: 50%;
+    justify-self: center;
+}
 
 
 
