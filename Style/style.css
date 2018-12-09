@@ -67,13 +67,20 @@ ol, ul {
 /* #endregion */
 
 
-@media only screen and (orientation: landscape) {
-
+@media only screen and (max-width: 813px) and (orientation: landscape) {
+    .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
+    #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
+    .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
+    .produkt5 , .produkt6 , .se-mere , .wishlist {
+        display: none !important;
+    }
 
 
 #vend {
-    grid-area: 3 / 2 / span 1 / span 4;
+    grid-area: 2 / 2 / span 1 / span 4;
     justify-self: center;
+    display: unset;
+    white-space: nowrap;
 }
 
 }
