@@ -258,7 +258,7 @@ body {
 
 
 
-/* Produkt1 */
+/* Produkt 1 */
 .produkt1 {
     grid-area: 22 / 1 / span 5 / span 5;
     width: 60%;
@@ -279,7 +279,7 @@ body {
 
 
 
-/* Produkt2 */
+/* Produkt 2 */
 .produkt2 {
     grid-area: 28 / 4 / span 6 / span 3;
     width: 70%;
@@ -298,7 +298,7 @@ body {
 
 
 
-/* Produkt3 */
+/* Produkt 3 */
 .produkt3 {
     grid-area: 35 / 1 / span 5 / span 5;
     width: 60%;
@@ -317,7 +317,20 @@ body {
 
 
 
+/* Produkt 4 */
+.produkt2 {
+    grid-area: 28 / 4 / span 6 / span 3;
+    width: 70%;
+    justify-self: center;
+}
 
+.se-mere-produkt2 {
+    grid-area: 28 / 1 / span 2 / span 3;
+}
+
+.wishlist-produkt2 {
+    grid-area: 31 / 1 / span 1 / span 3;
+}
 
 
 
