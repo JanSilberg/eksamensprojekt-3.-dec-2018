@@ -318,18 +318,18 @@ body {
 
 
 /* Produkt 4 */
-.produkt2 {
-    grid-area: 28 / 4 / span 6 / span 3;
+.produkt4 {
+    grid-area: 42 / 4 / span 6 / span 3;
     width: 70%;
     justify-self: center;
 }
 
-.se-mere-produkt2 {
-    grid-area: 28 / 1 / span 2 / span 3;
+.se-mere-produkt4 {
+    grid-area: 42 / 1 / span 2 / span 3;
 }
 
-.wishlist-produkt2 {
-    grid-area: 31 / 1 / span 1 / span 3;
+.wishlist-produkt4 {
+    grid-area: 45 / 1 / span 1 / span 3;
 }
 
 
