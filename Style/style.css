@@ -428,6 +428,26 @@ body {
 
 
 
+/* Produkt 9 */
+.produkt9 {
+    grid-area: 76 / 1 / span 4 / span 5;
+    width: 50%;
+    left: 3%;
+    position: relative;
+}
+
+.se-mere-produkt9 {
+    grid-area: 76 / 4 / span 2 / span 3;
+}
+
+.wishlist-produkt9 {
+    grid-area: 79 / 4 / span 1 / span 3;
+}
+
+
+
+
+
 
 /* #region Footer */
 
