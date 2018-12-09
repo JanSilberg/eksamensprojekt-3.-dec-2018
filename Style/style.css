@@ -232,7 +232,7 @@ body {
 
 /* Produkt2 er andet produkt, som er placeret til vestre. */
 .produkt2 {
-    grid-area: 25 / 1 / span 3 / span 4;
+    grid-area: 27 / 1 / span 3 / span 4;
     width: 70%;
     justify-self: center;
 }
