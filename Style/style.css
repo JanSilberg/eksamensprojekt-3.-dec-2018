@@ -409,6 +409,24 @@ body {
 
 
 
+/* Produkt 8 */
+.produkt8 {
+    grid-area: 68 / 4 / span 7 / span 3;
+    width: 60%;
+    justify-self: center;
+}
+
+.se-mere-produkt8 {
+    grid-area: 68 / 1 / span 2 / span 3;
+}
+
+.wishlist-produkt8 {
+    grid-area: 71 / 1 / span 1 / span 3;
+}
+
+
+
+
 
 
 /* #region Footer */
