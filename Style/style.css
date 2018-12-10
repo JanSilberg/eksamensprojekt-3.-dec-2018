@@ -54,7 +54,7 @@ ol, ul {
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
 #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
 .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
-.produkt5 , .produkt6 , .produkt7 , .se-mere , .wishlist , #vend {
+.produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #vend {
     display: none;
 }
 
@@ -71,7 +71,7 @@ ol, ul {
     .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
     #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
     .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
-    .produkt5 , .produkt6 , .produkt7 , .se-mere , .wishlist {
+    .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist {
         display: none !important;
     }
 
@@ -104,7 +104,7 @@ body {
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
 #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
 .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
-.produkt5 , .produkt6 , .produkt7 , .se-mere , .wishlist {
+.produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 ,  .se-mere , .wishlist {
     display: unset;
 }
 
