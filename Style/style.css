@@ -455,7 +455,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 11%;
+    height: 11vh;
     z-index: 2;
 }
 
@@ -502,8 +502,8 @@ nav ul li a {
     text-decoration: none;
     color: white;
     display: block;
-    padding-top: 23%;
-    padding-bottom: 23%;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
 }
 
 nav ul li a:hover {
@@ -513,7 +513,7 @@ nav ul li a:hover {
 
 
 
-#menu {
+/* #menu {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     position: fixed;
@@ -531,7 +531,7 @@ nav ul li a:hover {
     padding-bottom: 23%;
     color: white;
     font-size: 4vw;
-}
+} */
 
 
 
