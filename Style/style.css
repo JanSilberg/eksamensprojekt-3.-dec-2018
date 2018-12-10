@@ -558,22 +558,7 @@ nav ul li a:hover {
 /* Index2 */
 /* Index2 */
 
-.choose {
-    text-decoration: none;
-    color: white;
-    background: #DE4343;
-    text-align: center;
-    width: 80%;
-    justify-self: center;
-}
 
-.voksen {
-    grid-area: 5 / 1 / span 2 / span 6;
-}
-
-.barn {
-    grid-area: 8 / 1 / span 9 / span 6;
-}
 
 
 
