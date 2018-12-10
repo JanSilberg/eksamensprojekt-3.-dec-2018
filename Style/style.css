@@ -461,7 +461,7 @@ body {
 
 
 .vl {
-    border-left: 1px solid green;
+    border-left: 1px solid white;
     position: fixed;
     height: 11%;
  
@@ -482,7 +482,7 @@ body {
 }
 
 
-nav {
+/* nav {
     position: fixed;
     bottom: 0%; 
     width: 100%;
@@ -507,7 +507,7 @@ nav ul li a {
 nav ul li a:hover {
     font-weight: bold;
     text-decoration: underline;
-}
+} */
 
 
 
@@ -515,7 +515,7 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     position: fixed;
-    bottom: 2%;
+    bottom: 1%;
     justify-self: center;
     text-align: center;
     width: 100%;
@@ -525,8 +525,9 @@ nav ul li a:hover {
 
 #menu a {
     text-decoration: none;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 23%;
+    padding-bottom: 23%;
+    color: white;
 }
 
 
