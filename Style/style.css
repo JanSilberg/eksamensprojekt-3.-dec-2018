@@ -175,11 +175,14 @@ body {
 
 
 #back {
-    grid-area: 1 / 1 / span 2 / span 1;
-    width: 25%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 5%;
     align-self: center;
     justify-self: center;
     z-index: 2;
+    padding: 5% 5% 5% 5%;
 }
 
 #scan {
@@ -197,9 +200,10 @@ body {
     justify-self: center;
     width: 10%;
     position: fixed;
-    top: 2%;
+    top: 0%;
     z-index: 2;
-    right: 5%;
+    right: 0%;
+    padding: 5% 5% 5% 5%;
 }
 
 /* #endregion */
