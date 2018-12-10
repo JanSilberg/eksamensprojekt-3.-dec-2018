@@ -51,7 +51,10 @@ ol, ul {
 /* #region Desktop standarder */
 
 
-.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen {
+.br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
+#back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
+.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
+.produkt5 , .produkt6 , .produkt7 , .se-mere , .wishlist , #vend {
     display: none;
 }
 
@@ -64,7 +67,22 @@ ol, ul {
 /* #endregion */
 
 
+@media only screen and (max-width: 813px) and (orientation: landscape) {
+    .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
+    #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
+    .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
+    .produkt5 , .produkt6 , .produkt7 , .se-mere , .wishlist {
+        display: none !important;
+    }
 
+
+#vend {
+    grid-area: 2 / 1 / span 1 / span 6;
+    justify-self: center;
+    display: unset;
+}
+
+}
 
 
 
@@ -83,7 +101,10 @@ body {
     background: lightgray;
 }
 
-.br-logo , .menu-background-bottom , .menu-background-top , #baggrund , #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen {
+.br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
+#back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
+.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
+.produkt5 , .produkt6 , .produkt7 , .se-mere , .wishlist {
     display: unset;
 }
 
@@ -91,13 +112,37 @@ body {
    display: none;
 }
 
-/* #endregion */
 
-#baggrund {
-    z-index: -5;
+
+.baggrund {
+    z-index: -10;
     position: absolute;
     width: 100%;    
 }
+
+.baggrund2 {
+    grid-area: 20 / 1 / span 22 / span 6;
+    width: 100%;
+    z-index: -9;
+}
+
+.baggrund3 {
+    grid-area: 41 / 1 / span 22 / span 6;
+    width: 100%;
+    z-index: -9;
+}
+
+.baggrund4 {
+    grid-area: 62 / 1 / span 22 / span 6;
+    width: 100%;
+    z-index: -9;
+}
+
+
+
+/* #endregion */
+
+
 
 
 
@@ -117,6 +162,7 @@ body {
     left: 0;
     width: 100%;
     height: 70px;
+    z-index: 2;
 }
 
 .br-logo {
@@ -163,57 +209,7 @@ body {
 
 
 
-
-
-
-
-/* #region Footer */
-
-.menu-background-bottom {
-    background-color: #DE4343;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 12%;
-}
-
-
-nav {
-    position: fixed;
-    bottom: 0%; 
-    width: 100%;
-}
-
-nav ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-nav ul li {
-    text-align: center;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-nav ul li a:hover {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-/* #endregion */
-
-
-
-
-
-
-
-
-
-
+/* #region Content */
 
 #rangle {
     grid-area: 3 / 1 / span 5 / span 6;
@@ -232,7 +228,7 @@ nav ul li a:hover {
 
 
 #produkt-baggrund {
-    grid-area: 18 / 1 / span 10 / span 6;
+    grid-area: 18 / 1 / span 2 / span 6;
     background: white;
     z-index: -2;
 }
@@ -243,6 +239,278 @@ nav ul li a:hover {
     font-size: .8em;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+.se-mere {
+    color: white;
+    text-decoration: none;
+    background: #DE4343;
+    text-align: center;   
+    justify-self: center;
+    align-self: center;
+    width: 70%;
+    height: 80%;
+}
+
+.wishlist {
+    font-size: .8em;
+    justify-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Produkt 1 */
+.produkt1 {
+    grid-area: 22 / 1 / span 5 / span 5;
+    width: 60%;
+    left: 3%;
+    position: relative;
+}
+
+.se-mere-produkt1 {
+    grid-area: 22 / 4 / span 2 / span 3;
+}
+
+.wishlist-produkt1 {
+    grid-area: 25 / 4 / span 1 / span 3;
+}
+
+
+
+
+
+
+/* Produkt 2 */
+.produkt2 {
+    grid-area: 28 / 4 / span 6 / span 3;
+    width: 70%;
+    justify-self: center;
+}
+
+.se-mere-produkt2 {
+    grid-area: 28 / 1 / span 2 / span 3;
+}
+
+.wishlist-produkt2 {
+    grid-area: 31 / 1 / span 1 / span 3;
+}
+
+
+
+
+
+/* Produkt 3 */
+.produkt3 {
+    grid-area: 35 / 1 / span 5 / span 5;
+    width: 60%;
+    left: 3%;
+    position: relative;
+}
+
+.se-mere-produkt3 {
+    grid-area: 35 / 4 / span 2 / span 3;
+}
+
+.wishlist-produkt3 {
+    grid-area: 38 / 4 / span 1 / span 3;
+}
+
+
+
+
+/* Produkt 4 */
+.produkt4 {
+    grid-area: 42 / 4 / span 6 / span 3;
+    width: 70%;
+    justify-self: center;
+}
+
+.se-mere-produkt4 {
+    grid-area: 42 / 1 / span 2 / span 3;
+}
+
+.wishlist-produkt4 {
+    grid-area: 45 / 1 / span 1 / span 3;
+}
+
+
+
+
+/* Produkt 5 */
+.produkt5 {
+    grid-area: 48 / 1 / span 5 / span 5;
+    width: 50%;
+    left: 3%;
+    position: relative;
+}
+
+.se-mere-produkt5 {
+    grid-area: 48 / 4 / span 2 / span 3;
+}
+
+.wishlist-produkt5 {
+    grid-area: 51 / 4 / span 1 / span 3;
+}
+
+
+
+
+
+/* Produkt 6 */
+.produkt6 {
+    grid-area: 54 / 4 / span 6 / span 3;
+    width: 70%;
+    justify-self: center;
+}
+
+.se-mere-produkt6 {
+    grid-area: 54 / 1 / span 2 / span 3;
+}
+
+.wishlist-produkt6 {
+    grid-area: 57 / 1 / span 1 / span 3;
+}
+
+
+
+
+/* Produkt 7 */
+.produkt7 {
+    grid-area: 63 / 1 / span 5 / span 5;
+    width: 50%;
+    left: 3%;
+    position: relative;
+}
+
+.se-mere-produkt7 {
+    grid-area: 63 / 4 / span 2 / span 3;
+}
+
+.wishlist-produkt7 {
+    grid-area: 66 / 4 / span 1 / span 3;
+}
+
+
+
+
+/* Produkt 8 */
+.produkt8 {
+    grid-area: 68 / 4 / span 7 / span 3;
+    width: 60%;
+    justify-self: center;
+}
+
+.se-mere-produkt8 {
+    grid-area: 68 / 1 / span 2 / span 3;
+}
+
+.wishlist-produkt8 {
+    grid-area: 71 / 1 / span 1 / span 3;
+}
+
+
+
+
+
+/* Produkt 9 */
+.produkt9 {
+    grid-area: 76 / 1 / span 4 / span 5;
+    width: 50%;
+    left: 3%;
+    position: relative;
+}
+
+.se-mere-produkt9 {
+    grid-area: 76 / 4 / span 2 / span 3;
+}
+
+.wishlist-produkt9 {
+    grid-area: 79 / 4 / span 1 / span 3;
+}
+
+
+
+
+
+
+/* #region Footer */
+
+.menu-background-bottom {
+    background-color: #DE4343;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    z-index: 2;
+}
+
+
+nav {
+    position: fixed;
+    bottom: 0%; 
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav ul li {
+    text-align: center;
+}
+
+li~li { border-left: 1px solid white; height: 150%;}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: fixed;
+    bottom: 2.5%;
+    justify-self: center;
+    text-align: center;
+    width: 100%;
+    align-self: center;
+}
+
+#menu a~a {
+    border-left: 1px solid white;
+    height: 500%;
+}
+
+
+
+
+/* #endregion */
 
 
 

@@ -1,0 +1,11 @@
+# Fortæller apache serveren, at forsiden hedder index.html
+DirectoryIndex index.html
+
+# Fortæller serveren hvilken side den skal gå ind på, hvis brugeren forsøger , at tilgå en side som ikke er tilgængelig.
+ErrorDocument 404 https://jansilberg.com/404.html
+
+# Tvinger browseren til at koble på via HTTPS.
+#Rewrite everything to https
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
