@@ -12,3 +12,25 @@
     <a href="maintenance.html">Julekalender</a>
     <a href="maintenance.html">Club BR</a>
 </div>
+
+
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: fixed;
+    bottom: 1%;
+    justify-self: center;
+    text-align: center;
+    width: 100%;
+    align-self: center;
+    z-index: 2;
+}
+
+#menu a {
+    text-decoration: none;
+    padding-top: 23%;
+    padding-bottom: 23%;
+    color: white;
+    font-size: 4vw;
+}
