@@ -571,7 +571,11 @@ nav ul li a:hover {
 }
 
 
-
+.pd-produkt1 {
+    grid-area: 14 / 1 / span 10 / span 6;
+    width: 50%;
+    justify-self: center;
+}
 
 /* #endregion */
 
