@@ -203,7 +203,7 @@ body {
     justify-self: center;
     width: 10%;
     position: fixed;
-    top: 0%;
+    top: -.5%;
     z-index: 2;
     right: 0%;
     padding: 5% 5% 5% 5%;
