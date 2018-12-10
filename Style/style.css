@@ -54,7 +54,8 @@ ol, ul {
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
 #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
 .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
-.produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #vend , #menu , .vl {
+.produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #vend , #menu , .vl ,
+.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1  {
     display: none;
 }
 
@@ -68,11 +69,12 @@ ol, ul {
 
 
 @media only screen and (max-width: 813px) and (orientation: landscape) {
-    .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
-    #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
-    .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
-    .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #menu , .vl {
-        display: none !important;
+.br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
+#back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
+.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
+.produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #menu , .vl , 
+.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1  {
+    display: none !important;
     }
 
 
@@ -104,7 +106,8 @@ body {
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
 #back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
 .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
-.produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 ,  .se-mere , .wishlist , #menu , .vl {
+.produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 ,  .se-mere , .wishlist , #menu , .vl , 
+.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1  {
     display: unset;
 }
 
@@ -560,9 +563,9 @@ nav ul li a:hover {
 
 /* #region Produkt Detaljer */
 
-/* Produkt 1 */
+/* #region Produkt 1 */
 
-.pd-baggrund {
+.pd1-baggrund {
     width: 100%;
     position: fixed;
     top: 0;
@@ -572,22 +575,38 @@ nav ul li a:hover {
 
 
 
-.pd-overskrift { 
+.pd1-overskrift { 
     grid-area: 7 / 1 / span 5 / span 6;
     width: 50%;
     justify-self: center;
 }
 
 
+.pd1-h4 {
+    grid-area: 10 / 1 / span 4 / span 6;
+    text-align: center;
+}
 
 
-.pd-produkt1 {
+
+.pd1-produkt1 {
     grid-area: 17 / 1 / span 10 / span 6;
     width: 50%;
     justify-self: center;
 }
 
 
+.pd1-tekst {
+    grid-area: 28 / 2 / span 30 / span 4;
+}
+
+
+
+
+
+
+
+/* #endregion */
 
 
 
