@@ -25,6 +25,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 1em;
+    font-family: 'Nunito' , sans-serif;
 }
 
 
@@ -52,8 +53,8 @@ ol, ul {
 
 
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
-#back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
-.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
+#back , #scan , #search , #onskebogen , #rangle , 
+.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , #stortgran , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
 .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #vend , #menu , .vl ,
 .pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1  {
     display: none;
@@ -70,8 +71,8 @@ ol, ul {
 
 @media only screen and (max-width: 813px) and (orientation: landscape) {
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
-#back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
-.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
+#back , #scan , #search , #onskebogen , #rangle ,
+.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , #stortgran , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
 .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #menu , .vl , 
 .pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , #na  {
     display: none;
@@ -104,8 +105,8 @@ body {
 }
 
 .br-logo , .menu-background-bottom , .menu-background-top , .baggrund ,
-#back , #scan , #search , #onskebogen , #produkt-baggrund , #rangle , #velkommen ,
-.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
+#back , #scan , #search , #onskebogen , #rangle , 
+.baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , #stortgran , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
 .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 ,  .se-mere , .wishlist , #menu , .vl , 
 .pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1  {
     display: unset;
@@ -215,6 +216,7 @@ body {
 
 
 
+
 /* #region Content */
 
 #rangle {
@@ -233,19 +235,11 @@ body {
 }
 
 
-#produkt-baggrund {
-    grid-area: 18 / 1 / span 2 / span 6;
-    background: white;
-    z-index: -2;
+#stortgran {
+    grid-area: 19 / 1 / span 6 / span 6;
+    position: relative;
+    top: 8%;
 }
-
-#velkommen {
-    grid-area: 18 / 1 / span 3 / span 6;
-    text-align: center;
-    font-size: .8em;
-}
-
-
 
 
 
@@ -570,7 +564,7 @@ nav ul li a:hover {
 }
 
 .pp1-h4 {
-    grid-area: 10 / 6 / span 2 / span 3;
+    grid-area: 10 / 6 / span 4 / span 4;
 }
 
 
