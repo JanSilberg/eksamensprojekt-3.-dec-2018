@@ -62,7 +62,8 @@ ol, ul {
 #back , #scan , #search , #onskebogen , #rangle , 
 .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , #stortgran , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
 .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #vend , #menu , .vl ,
-.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , .pd1-tekst , .pp1-h4  {
+.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , .pd1-tekst , .pp1-h4 , 
+#tekst-404  {
     display: none;
 }
 
@@ -81,7 +82,8 @@ ol, ul {
 #back , #scan , #search , #onskebogen , #rangle ,
 .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , #stortgran , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
 .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #menu , .vl , 
-.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , .pd1-tekst , .pp1-h4 , #na  {
+.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , .pd1-tekst , .pp1-h4 , #na , 
+#tekst-404  {
     display: none;
     }
 
@@ -114,7 +116,7 @@ body {
 #back , #scan , #search , #onskebogen , #rangle , 
 .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , #stortgran , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
 .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 ,  .se-mere , .wishlist , #menu , .vl , 
-.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , .pp1-h4 , .pd1-tekst  {
+.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , .pp1-h4 , .pd1-tekst , #tekst-404  {
     display: unset;
 }
 
