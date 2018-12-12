@@ -219,9 +219,82 @@ body {
 /* #endregion */
 
 
+/* #region Footer */
+
+.menu-background-bottom {
+    background-color: #DE4343;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 11vh;
+    z-index: 2;
+}
+
+/* Vi har valgt at lave lodrette streger på nedenstående måde for, at kunne få
+den lodrette streg til, at nå fra top til bund af vores røde baggrund. */
+
+.vl {
+    border-left: 1px solid white;
+    position: fixed;
+    height: 11%;
+    bottom: 0;
+    z-index: 2;
+}
+
+.vl-1 {
+    left: 25%;
+}
+
+.vl-2 {
+    left: 50%;
+}
+
+.vl-3 {
+    left: 75%;
+}
 
 
 
+
+nav {
+    position: fixed;
+    bottom: -1.5%; 
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav ul li {
+    text-align: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* #endregion */
+
+
+
+
+
+/* Forside */
+/* Forside */
+/* Forside */
 
 /* #region Forside */
 
@@ -456,81 +529,6 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 
 
-/* #region Footer */
-
-.menu-background-bottom {
-    background-color: #DE4343;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 11vh;
-    z-index: 2;
-}
-
-/* Vi har valgt at lave lodrette streger på nedenstående måde for, at kunne få
-den lodrette streg til, at nå fra top til bund af vores røde baggrund. */
-
-.vl {
-    border-left: 1px solid white;
-    position: fixed;
-    height: 11%;
-    bottom: 0;
-    z-index: 2;
-}
-
-.vl-1 {
-    left: 25%;
-}
-
-.vl-2 {
-    left: 50%;
-}
-
-.vl-3 {
-    left: 75%;
-}
-
-
-
-
-nav {
-    position: fixed;
-    bottom: -1.5%; 
-    width: 100%;
-    z-index: 2;
-}
-
-nav ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-nav ul li {
-    text-align: center;
-}
-
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding-top: 3vh;
-    padding-bottom: 4vh;
-}
-
-nav ul li a:hover {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-/* #endregion */
-
-
-
-
-
-
-
 
 
 /* Produkt Detaljer */
@@ -582,34 +580,33 @@ nav ul li a:hover {
 }
 
 
+
+
+
+
+
+
+
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-/* #endregion */
-
-
-
-
-
-
-
-
-
-/* #endregion */
-
-
-
-
-/* Tablet størrelse */
-/* Tablet størrelse */
-/* Tablet størrelse */
-
-/* #region Tablet query */
-
-@media only screen and (max-width: 1024px) {
-
-} 
-
-/* #endregion */
