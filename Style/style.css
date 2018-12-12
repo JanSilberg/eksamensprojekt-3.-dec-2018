@@ -249,7 +249,8 @@ body {
 
 
 
-
+/* .se-mere og .wishlist definerer stylingen på vores knapper, og nedenunder er 
+de individuelle knapper så blevet placeret i vores grid. */
 
 .se-mere {
     color: white;
