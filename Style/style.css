@@ -1,4 +1,10 @@
 
+/* Såfremt siden skal ses på en computer, så skal den ses som "iphone 6/7/8" */
+
+
+
+
+
 
 /* #region Standarder som er sat for hele filen */
 
@@ -95,7 +101,6 @@ ol, ul {
 /* Smartphone størrelse */
 /* Smartphone størrelse */
 
-/* #region Smartphone query */
 
 @media only screen and (max-width: 813px) and (orientation: portrait) {
 
@@ -486,6 +491,8 @@ den lodrette streg til, at nå fra top til bund af vores røde baggrund. */
 }
 
 
+
+
 nav {
     position: fixed;
     bottom: -1.5%; 
@@ -516,23 +523,12 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-
 /* #endregion */
-
-
-
-
-
 
 }
 
-/* #endregion */
+
+
 
 
 
