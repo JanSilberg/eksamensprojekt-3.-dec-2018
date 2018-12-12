@@ -447,7 +447,7 @@ de individuelle knapper så blevet placeret i vores grid. */
 }
 
 
-
+/* #endregion */
 
 
 
@@ -462,6 +462,8 @@ de individuelle knapper så blevet placeret i vores grid. */
     z-index: 2;
 }
 
+/* Vi har valgt at lave lodrette streger på nedenstående måde for, at kunne få
+den lodrette streg til, at nå fra top til bund af vores røde baggrund. */
 
 .vl {
     border-left: 1px solid white;
