@@ -1,4 +1,4 @@
-# Fortæller apache serveren, at forsiden hedder index.html
+# Fortæller serveren, at forsiden hedder index.html
 DirectoryIndex index.html
 
 # Fortæller serveren hvilken side den skal gå ind på, hvis brugeren forsøger , at tilgå en side som ikke er tilgængelig.
