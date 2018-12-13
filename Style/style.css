@@ -1,4 +1,10 @@
 
+/* Såfremt siden skal ses på en computer, så skal den ses som "iphone 6/7/8" */
+
+
+
+
+
 
 /* #region Standarder som er sat for hele filen */
 
@@ -56,9 +62,11 @@ ol, ul {
 #back , #scan , #search , #onskebogen , #rangle , 
 .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , #stortgran , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
 .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #vend , #menu , .vl ,
-.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1  {
+.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , .pd1-tekst , .pp1-h4 , 
+#tekst-404  {
     display: none;
 }
+
 
 #na {
     grid-area: 3 / 2 / span 1 / span 4;
@@ -74,7 +82,8 @@ ol, ul {
 #back , #scan , #search , #onskebogen , #rangle ,
 .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , #stortgran , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
 .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 , .se-mere , .wishlist , #menu , .vl , 
-.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , #na  {
+.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , .pd1-tekst , .pp1-h4 , #na , 
+#tekst-404  {
     display: none;
     }
 
@@ -94,7 +103,6 @@ ol, ul {
 /* Smartphone størrelse */
 /* Smartphone størrelse */
 
-/* #region Smartphone query */
 
 @media only screen and (max-width: 813px) and (orientation: portrait) {
 
@@ -108,7 +116,7 @@ body {
 #back , #scan , #search , #onskebogen , #rangle , 
 .baggrund2 , .baggrund3 , .baggrund4 , nav , #santa , #stortgran , .produkt1 , .produkt2 , .produkt3 , .produkt4 , 
 .produkt5 , .produkt6 , .produkt7 , .produkt8 , .produkt9 ,  .se-mere , .wishlist , #menu , .vl , 
-.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1  {
+.pd1-baggrund , .pd1-overskrift , .pd1-h4 , .pd1-produkt1 , .pp1-h4 , .pd1-tekst , #tekst-404  {
     display: unset;
 }
 
@@ -213,11 +221,84 @@ body {
 /* #endregion */
 
 
+/* #region Footer */
+
+.menu-background-bottom {
+    background-color: #DE4343;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 11vh;
+    z-index: 2;
+}
+
+/* Vi har valgt at lave lodrette streger på nedenstående måde for, at kunne få
+den lodrette streg til, at nå fra top til bund af vores røde baggrund. */
+
+.vl {
+    border-left: 1px solid white;
+    position: fixed;
+    height: 11%;
+    bottom: 0;
+    z-index: 2;
+}
+
+.vl-1 {
+    left: 25%;
+}
+
+.vl-2 {
+    left: 50%;
+}
+
+.vl-3 {
+    left: 75%;
+}
 
 
 
 
-/* #region Content */
+nav {
+    position: fixed;
+    bottom: -1.5%; 
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav ul li {
+    text-align: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* #endregion */
+
+
+
+
+
+/* Forside */
+/* Forside */
+/* Forside */
+
+/* #region Forside */
 
 #rangle {
     grid-area: 3 / 1 / span 5 / span 6;
@@ -248,7 +329,8 @@ body {
 
 
 
-
+/* .se-mere og .wishlist definerer stylingen på vores knapper, og nedenunder er 
+de individuelle knapper så blevet placeret i vores grid. */
 
 .se-mere {
     color: white;
@@ -445,90 +527,8 @@ body {
 }
 
 
-
-
-
-
-/* #region Footer */
-
-.menu-background-bottom {
-    background-color: #DE4343;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 11vh;
-    z-index: 2;
-}
-
-
-.vl {
-    border-left: 1px solid white;
-    position: fixed;
-    height: 11%;
-    bottom: 0;
-    z-index: 2;
-}
-
-.vl-1 {
-    left: 25%;
-}
-
-.vl-2 {
-    left: 50%;
-}
-
-.vl-3 {
-    left: 75%;
-}
-
-
-nav {
-    position: fixed;
-    bottom: -1.5%; 
-    width: 100%;
-    z-index: 2;
-}
-
-nav ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-nav ul li {
-    text-align: center;
-}
-
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding-top: 3vh;
-    padding-bottom: 4vh;
-}
-
-nav ul li a:hover {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-
-
-
-
-
-
-
 /* #endregion */
 
-
-
-
-
-
-}
-
-/* #endregion */
 
 
 
@@ -563,6 +563,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
+
 .pp1-h4 {
     grid-area: 10 / 6 / span 4 / span 4;
 }
@@ -586,13 +587,6 @@ nav ul li a:hover {
 
 
 
-/* #endregion */
-
-
-
-
-
-
 
 
 
@@ -601,14 +595,29 @@ nav ul li a:hover {
 
 
 
-/* Tablet størrelse */
-/* Tablet størrelse */
-/* Tablet størrelse */
 
-/* #region Tablet query */
 
-@media only screen and (max-width: 1024px) {
 
-} 
+
 
 /* #endregion */
+
+
+
+
+
+/* 404 - Siden eksisterer ikke */
+/* 404 - Siden eksisterer ikke */
+/* 404 - Siden eksisterer ikke */
+
+
+#tekst-404 {
+    grid-area: 3 / 1 / span 2 / span 6;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+}
