@@ -1,5 +1,5 @@
 # Eksamensprojekt-3.-dec-2018
-Eksamensprojekt 3. december 2018 Maja, Malene, Jan
+Eksamensprojekt 3. december 2018 Maja, Jan
 
 
 
@@ -7,14 +7,7 @@ Eksamensprojekt 3. december 2018 Maja, Malene, Jan
  - CSS filer skal ligge i en mappe kaldet "Style", så alle html referencer til CSS filerne ser ens ud.
  - Billeder skal ligge i en mappe kaldet "Images" så al kode refererer hen i samme mappe.
 
-<br><br><br>
 
- - Hvem står for hvad? (design, kodning, github)
- - Scrum opsætning (sprints, reviews mv)
- - Vi skal lave sketches og wireframes.
- - Vi skal få familie, venner eller andet til at give feedback på siden, da det kan bruges i rapporten også.
- - Vi skal lave et sitemap (visuelt (microsoft visio alternativ) og eventuelt som XML format (lang liste))
- 
 
 <br><br><br>
 
