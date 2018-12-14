@@ -143,6 +143,9 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
 }
 
 
+.red-box {
+    
+}
 
 /* #endregion */
 
@@ -602,12 +605,26 @@ de individuelle knapper så blevet placeret i vores grid. */
 /* 404 - Siden eksisterer ikke */
 /* 404 - Siden eksisterer ikke */
 
+/* #region 404 Page not found */
 
 #tekst-404 {
     grid-area: 3 / 1 / span 2 / span 6;
     text-align: center;
     color: white;
 }
+
+/* #endregion */
+
+
+
+/* Min profil */
+/* Min profil */
+/* Min profil */
+
+
+
+
+
 
 
 
