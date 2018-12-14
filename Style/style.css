@@ -628,21 +628,60 @@ de individuelle knapper så blevet placeret i vores grid. */
 /* Min profil */
 /* Min profil */
 
+.mp-titel {
+    grid-area: 10 / 1 / span 20 / span 6;
+    width: 50%;
+    justify-self: center;
+}
+
+
+
 .mp-info {
     grid-area: 25 / 1 / span 4 / span 6;
+    padding: 10px 54px;
 }
+
+.mp-info:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 .mp-admin {
     grid-area: 31 / 1 / span 4 / span 6;
 }
 
-.mp-ks {
-    grid-area: 37 / 1 / span 4 / span 6;
+.mp-admin:hover {
+    transform: scale(1.1);
 }
 
 
 
+
+.mp-ks {
+    grid-area: 37 / 1 / span 4 / span 6;
+    padding: 10px 74px;
+}
+
+.mp-ks:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.mp-julekrans {
+    grid-area: 46 / 2 / span 10 / span 2;
+    width: 80%;
+    justify-self: center;
+}
+
+.mp-santahat {
+    grid-area: 17 / 4 / span 10 / span 2;
+    width: 50%;
+    justify-self: center;
+}
 
 
 
