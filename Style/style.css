@@ -58,7 +58,7 @@ ol, ul {
 /* #region Desktop standarder */
 
 
-img , p , h1 , h2 , h3 , h4 , nav , form , #vend   {
+img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #vend   {
     display: none;
 }
 
