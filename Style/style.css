@@ -319,9 +319,7 @@ nav ul li a:hover {
 
 
 #stortgran {
-    grid-area: 19 / 1 / span 6 / span 6;
-    position: relative;
-    top: 8%;
+    grid-area: 20 / 1 / span 6 / span 6;
 }
 
 
