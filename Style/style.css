@@ -119,9 +119,11 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
 
 
 .baggrund {
-    z-index: -10;
+    z-index: -8;
     position: absolute;
-    width: 100%;    
+    width: 100%;
+    max-width: 200%;
+    top: 10%;
 }
 
 .baggrund2 {
@@ -230,7 +232,7 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 40px;
     z-index: 2;
 }
 
@@ -240,7 +242,7 @@ den lodrette streg til, at nå fra top til bund af vores røde baggrund. */
 .vl {
     border-left: 1px solid white;
     position: fixed;
-    height: 60px;
+    height: 40px;
     bottom: 0;
     z-index: 2;
 }
@@ -281,8 +283,8 @@ nav ul li a {
     text-decoration: none;
     color: white;
     display: block;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 1vh;
+    padding-bottom: .8vh;
 }
 
 nav ul li a:hover {
@@ -304,19 +306,40 @@ nav ul li a:hover {
 
 #rangle {
     grid-area: 3 / 1 / span 5 / span 6;
+    width: 110%;
+    max-width: 120%;
+    justify-self: center;
 }
 
 
 #onskebogen {
-    grid-area: 8 / 2 / span 5 / span 4;
+    grid-area: 9 / 1 / span 5 / span 6;
+    justify-self: center;
+    width: 95%;
+    max-width: 150%;
 }
 
 #santa {
-    grid-area: 12 / 1 / span 4 / span 6;
-    justify-self: center;
-    width: 50%;
+    /* grid-area: 12 / 1 / span 4 / span 6; */
+    position: absolute;
+    top: 90%;
+    width: 70%;
+    animation: santajump 5s ease-in-out infinite;
+    transform: rotateY(180deg);
 }
 
+
+@keyframes santajump {
+    0% {left: -40%}
+    25% {left: 20%; top: 60%;}
+    50% {left: 130%; top: 80%;}
+    75% {left: 20%; top: 60%;}
+    100% {left: -40%; left: -40%;}
+}
+
+/* 0% {left: -40%}
+50% {left: 20%; top: 60%;}
+100% {left: 130%; top: 80%;} */
 
 #stortgran {
     grid-area: 20 / 1 / span 6 / span 6;
