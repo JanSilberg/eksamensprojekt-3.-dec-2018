@@ -230,7 +230,7 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 11vh;
+    height: 60px;
     z-index: 2;
 }
 
@@ -240,7 +240,7 @@ den lodrette streg til, at nå fra top til bund af vores røde baggrund. */
 .vl {
     border-left: 1px solid white;
     position: fixed;
-    height: 11%;
+    height: 60px;
     bottom: 0;
     z-index: 2;
 }
@@ -282,7 +282,7 @@ nav ul li a {
     color: white;
     display: block;
     padding-top: 3vh;
-    padding-bottom: 4vh;
+    padding-bottom: 3vh;
 }
 
 nav ul li a:hover {
