@@ -77,9 +77,9 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #vend   {
 
 
 @media only screen and (max-width: 813px) and (orientation: landscape) {
-    img , p , h1 , h2 , h3 , h4 , nav , form , #na   {
-        display: none;
-    }
+img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #na   {
+    display: none;
+}
 
 
 #vend {
@@ -106,7 +106,7 @@ body {
     background: lightgray;
 }
 
-img , p , h1 , h2 , h3 , h4 , nav , form   {
+img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     display: unset;
 }
 
