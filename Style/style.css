@@ -34,6 +34,7 @@ body {
     margin: 0;
     font-size: 1em;
     font-family: 'Nunito' , sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -123,7 +124,7 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     position: absolute;
     width: 100%;
     max-width: 200%;
-    top: 10%;
+    top: 1%;
 }
 
 .baggrund2 {
@@ -183,8 +184,8 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
 
 .br-logo {
     width: 15%;
-    position: fixed;
     z-index: 2;
+    position: fixed;
     top: .6%;
     left: 42.5%;
 }
@@ -322,7 +323,7 @@ nav ul li a:hover {
 #santa {
     /* grid-area: 12 / 1 / span 4 / span 6; */
     position: absolute;
-    top: 90%;
+    top: 80%;
     width: 70%;
     animation: santajump 5s ease-in-out infinite;
     transform: rotateY(180deg);
@@ -337,12 +338,9 @@ nav ul li a:hover {
     100% {left: -40%; left: -40%; }
 }
 
-/* 0% {left: -40%}
-50% {left: 20%; top: 60%;}
-100% {left: 130%; top: 80%;} */
 
 #stortgran {
-    grid-area: 20 / 1 / span 6 / span 6;
+    grid-area: 21 / 1 / span 6 / span 6;
 }
 
 
