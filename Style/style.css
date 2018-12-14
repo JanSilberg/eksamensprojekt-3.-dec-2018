@@ -144,8 +144,15 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
 
 
 .red-box {
-    
+    justify-self: center;
+    text-decoration: none;
+    color: white;
+    background: #DE4343;
+    border-radius: 15px;
+    padding: 10px 50px;
 }
+
+
 
 /* #endregion */
 
@@ -621,7 +628,18 @@ de individuelle knapper så blevet placeret i vores grid. */
 /* Min profil */
 /* Min profil */
 
+.mp-info {
+    grid-area: 25 / 1 / span 4 / span 6;
+}
 
+
+.mp-admin {
+    grid-area: 31 / 1 / span 4 / span 6;
+}
+
+.mp-ks {
+    grid-area: 37 / 1 / span 4 / span 6;
+}
 
 
 
