@@ -188,6 +188,7 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     position: fixed;
     top: .6%;
     left: 42.5%;
+    margin-top: 3%;
 }
 
 
