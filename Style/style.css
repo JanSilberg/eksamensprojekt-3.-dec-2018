@@ -626,6 +626,8 @@ de individuelle knapper så blevet placeret i vores grid. */
 /* Min profil */
 /* Min profil */
 
+/* #region Min profil */
+
 .mp-titel {
     grid-area: 10 / 1 / span 20 / span 6;
     width: 50%;
@@ -680,6 +682,32 @@ de individuelle knapper så blevet placeret i vores grid. */
     width: 40%;
     justify-self: center;
 }
+
+/* #endregion */
+
+
+/* Ønskelister */
+/* Ønskelister */
+/* Ønskelister */
+
+/* #region Ønskelister */
+
+.ol-checkbox {
+    justify-self: center;
+}
+
+.ol-emili-check {
+    grid-area: 10 / 4 / span 3 / span 2;
+}
+
+.ol-joakim-check {
+    grid-area: 15 / 4 / span 3 / span 2;
+}
+
+
+
+/* #endregion */
+
 
 
 
