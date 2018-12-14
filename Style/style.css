@@ -1,5 +1,7 @@
 
-/* Såfremt siden skal ses på en computer, så skal den ses som "iphone 6/7/8" */
+/* Såfremt siden skal ses på en computer, så skal den ses som "iphone 6/7/8"
+Computeren kan ikke gengive de præcist samme forhold, som en telefon kan, dette skal der tages forbehold for såfremt, at siden ses på en computer og ikke telefon.
+Nogen ting kan se forskudte og flyttede ud på computer i forhold til mobil. */
 
 
 
@@ -77,9 +79,9 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #vend   {
 
 
 @media only screen and (max-width: 813px) and (orientation: landscape) {
-    img , p , h1 , h2 , h3 , h4 , nav , form , #na   {
-        display: none;
-    }
+img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #na   {
+    display: none;
+}
 
 
 #vend {
@@ -106,7 +108,7 @@ body {
     background: lightgray;
 }
 
-img , p , h1 , h2 , h3 , h4 , nav , form   {
+img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     display: unset;
 }
 
@@ -138,6 +140,16 @@ img , p , h1 , h2 , h3 , h4 , nav , form   {
     grid-area: 62 / 1 / span 22 / span 6;
     width: 100%;
     z-index: -9;
+}
+
+
+.red-box {
+    justify-self: center;
+    text-decoration: none;
+    color: white;
+    background: #DE4343;
+    border-radius: 15px;
+    padding: 10px 50px;
 }
 
 
@@ -307,9 +319,7 @@ nav ul li a:hover {
 
 
 #stortgran {
-    grid-area: 19 / 1 / span 6 / span 6;
-    position: relative;
-    top: 8%;
+    grid-area: 20 / 1 / span 6 / span 6;
 }
 
 
@@ -600,12 +610,104 @@ de individuelle knapper så blevet placeret i vores grid. */
 /* 404 - Siden eksisterer ikke */
 /* 404 - Siden eksisterer ikke */
 
+/* #region 404 Page not found */
 
 #tekst-404 {
     grid-area: 3 / 1 / span 2 / span 6;
     text-align: center;
     color: white;
 }
+
+/* #endregion */
+
+
+
+/* Min profil */
+/* Min profil */
+/* Min profil */
+
+/* #region Min profil */
+
+.mp-titel {
+    grid-area: 10 / 1 / span 20 / span 6;
+    width: 50%;
+    justify-self: center;
+}
+
+
+
+.mp-info {
+    grid-area: 25 / 1 / span 4 / span 6;
+    padding: 10px 54px;
+}
+
+.mp-info:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.mp-admin {
+    grid-area: 31 / 1 / span 4 / span 6;
+}
+
+.mp-admin:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.mp-ks {
+    grid-area: 37 / 1 / span 4 / span 6;
+    padding: 10px 74px;
+}
+
+.mp-ks:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.mp-julekrans {
+    grid-area: 44 / 1 / span 12 / span 3;
+    width: 60%;
+    justify-self: center;
+}
+
+.mp-santahat {
+    grid-area: 17 / 4 / span 8 / span 3;
+    width: 40%;
+    justify-self: center;
+}
+
+/* #endregion */
+
+
+/* Ønskelister */
+/* Ønskelister */
+/* Ønskelister */
+
+/* #region Ønskelister */
+
+.ol-checkbox {
+    justify-self: center;
+}
+
+.ol-emili-check {
+    grid-area: 10 / 4 / span 3 / span 2;
+}
+
+.ol-joakim-check {
+    grid-area: 15 / 4 / span 3 / span 2;
+}
+
+
+
+/* #endregion */
+
 
 
 
