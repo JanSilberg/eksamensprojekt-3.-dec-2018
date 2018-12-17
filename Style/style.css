@@ -801,7 +801,32 @@ de individuelle knapper så blevet placeret i vores grid. */
 /* #endregion */
 
 
+/* Julekalder */
+/* Julekalder */
+/* Julekalder */
 
+/* #region Julekalder */
+
+#jk-titel {
+    grid-area: 6 / 1 / span 5 / span 6;
+    width: 50%;
+    justify-self: center;
+}
+
+
+
+#jk-julelys {
+    grid-area: 10 / 1 / span 30 / span 6;
+    justify-self: center;
+    height: 100%;
+}
+
+
+
+
+
+
+/* #endregion */
 
 
 }
