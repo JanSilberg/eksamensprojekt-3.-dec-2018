@@ -344,6 +344,14 @@ nav ul li a:hover {
 
 #stortgran {
     grid-area: 21 / 1 / span 6 / span 6;
+    width: 86%;
+    justify-self: center;
+}
+
+#stortgran2 {
+    grid-area: 61 / 1 / span 6 / span 6;
+    width: 86%;
+    justify-self: center;
 }
 
 
@@ -380,7 +388,7 @@ de individuelle knapper så blevet placeret i vores grid. */
 .produkt1 {
     grid-area: 24 / 1 / span 5 / span 5;
     width: 60%;
-    left: 3%;
+    left: 7%;
     position: relative;
 }
 
@@ -420,7 +428,7 @@ de individuelle knapper så blevet placeret i vores grid. */
 .produkt3 {
     grid-area: 35 / 1 / span 5 / span 5;
     width: 60%;
-    left: 3%;
+    left: 7%;
     position: relative;
 }
 
@@ -457,7 +465,7 @@ de individuelle knapper så blevet placeret i vores grid. */
 .produkt5 {
     grid-area: 48 / 1 / span 5 / span 5;
     width: 50%;
-    left: 3%;
+    left: 7%;
     position: relative;
 }
 
@@ -493,18 +501,18 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 /* Produkt 7 */
 .produkt7 {
-    grid-area: 63 / 1 / span 5 / span 5;
+    grid-area: 64 / 1 / span 5 / span 5;
     width: 50%;
-    left: 3%;
+    left: 7%;
     position: relative;
 }
 
 .se-mere-produkt7 {
-    grid-area: 63 / 4 / span 2 / span 2;
+    grid-area: 64 / 4 / span 2 / span 2;
 }
 
 .wishlist-produkt7 {
-    grid-area: 64 / 4 / span 2 / span 3;
+    grid-area: 65 / 4 / span 2 / span 3;
 }
 
 
@@ -512,17 +520,17 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 /* Produkt 8 */
 .produkt8 {
-    grid-area: 68 / 4 / span 7 / span 3;
-    width: 60%;
+    grid-area: 69 / 4 / span 7 / span 3;
+    width: 50%;
     justify-self: center;
 }
 
 .se-mere-produkt8 {
-    grid-area: 68 / 1 / span 2 / span 2;
+    grid-area: 69 / 1 / span 2 / span 2;
 }
 
 .wishlist-produkt8 {
-    grid-area: 69 / 1 / span 2 / span 3;
+    grid-area: 70 / 1 / span 2 / span 3;
 }
 
 
@@ -533,7 +541,7 @@ de individuelle knapper så blevet placeret i vores grid. */
 .produkt9 {
     grid-area: 76 / 1 / span 4 / span 5;
     width: 50%;
-    left: 3%;
+    left: 7%;   
     position: relative;
 }
 
