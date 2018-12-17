@@ -776,7 +776,7 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 .ol-navn2 {
     grid-area: 15 / 1 / span 2 / span 4;
-    padding-top: 20px
+    padding: 20px 50px;
 }
 
 .ol-navn2:hover {
