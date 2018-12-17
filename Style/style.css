@@ -822,11 +822,60 @@ de individuelle knapper så blevet placeret i vores grid. */
 }
 
 
+/* #endregion */
 
+
+/* Club BR */
+/* Club BR */
+/* Club BR */
+
+/* #region Club BR */
+
+#club-titel {
+    grid-area: 8 / 1 / span 5 / span 6;
+    justify-self: center;
+    width: 50%;
+}
+
+
+
+
+.club-info {
+    border: 1px solid #999999;
+    border-radius: 15px;
+    justify-self: center;
+    padding: 10px 40px;
+}
+
+
+#club-spar {
+    grid-area: 16 / 1 / span 3 / span 6;
+}
+
+
+#club-sparem {
+    grid-area: 20 / 1 / span 5 / span 6;
+}
+
+#club-sparem-tekst {
+    grid-area: 25 / 2 / span 10 / span 4;
+    text-align: center;
+}
+
+
+
+#club-happy {
+    grid-area: 34 / 1 / span 5 / span 6;
+    padding: 10px 28px;
+}
+
+#club-happy-tekst {
+    grid-area: 39 / 2 / span 10 / span 4;
+    text-align: center;
+}
 
 
 
 /* #endregion */
-
 
 }
