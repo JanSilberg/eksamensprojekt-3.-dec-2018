@@ -129,18 +129,20 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
 
 .baggrund2 {
     grid-area: 20 / 1 / span 22 / span 6;
-    width: 100%;
+    width: 110%;
+    max-width: 120%;
     z-index: -9;
 }
 
 .baggrund3 {
-    grid-area: 41 / 1 / span 22 / span 6;
-    width: 100%;
+    grid-area: 40 / 1 / span 22 / span 6;
+    width: 110%;
+    max-width: 120%;
     z-index: -9;
 }
 
 .baggrund4 {
-    grid-area: 62 / 1 / span 22 / span 6;
+    grid-area: 61 / 1 / span 20 / span 6;
     width: 100%;
     z-index: -9;
 }
@@ -355,19 +357,14 @@ nav ul li a:hover {
 de individuelle knapper så blevet placeret i vores grid. */
 
 .se-mere {
-    color: white;
-    text-decoration: none;
-    background: #DE4343;
-    text-align: center;   
+    width: 40%;
     justify-self: center;
-    align-self: center;
-    width: 70%;
-    height: 80%;
 }
 
 .wishlist {
-    font-size: .8em;
+    width: 50%;
     justify-self: center;
+    align-self: center;
 }
 
 
@@ -381,18 +378,18 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 /* Produkt 1 */
 .produkt1 {
-    grid-area: 22 / 1 / span 5 / span 5;
+    grid-area: 24 / 1 / span 5 / span 5;
     width: 60%;
     left: 3%;
     position: relative;
 }
 
 .se-mere-produkt1 {
-    grid-area: 22 / 4 / span 2 / span 3;
+    grid-area: 24 / 4 / span 2 / span 2;
 }
 
 .wishlist-produkt1 {
-    grid-area: 25 / 4 / span 1 / span 3;
+    grid-area: 25 / 4 / span 2 / span 3;
 }
 
 
@@ -402,17 +399,17 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 /* Produkt 2 */
 .produkt2 {
-    grid-area: 28 / 4 / span 6 / span 3;
+    grid-area: 29 / 4 / span 6 / span 3;
     width: 70%;
     justify-self: center;
 }
 
 .se-mere-produkt2 {
-    grid-area: 28 / 1 / span 2 / span 3;
+    grid-area: 29 / 1 / span 2 / span 2;
 }
 
 .wishlist-produkt2 {
-    grid-area: 31 / 1 / span 1 / span 3;
+    grid-area: 30 / 1 / span 2 / span 3;
 }
 
 
@@ -428,11 +425,11 @@ de individuelle knapper så blevet placeret i vores grid. */
 }
 
 .se-mere-produkt3 {
-    grid-area: 35 / 4 / span 2 / span 3;
+    grid-area: 35 / 4 / span 2 / span 2;
 }
 
 .wishlist-produkt3 {
-    grid-area: 38 / 4 / span 1 / span 3;
+    grid-area: 36 / 4 / span 2 / span 3;
 }
 
 
@@ -446,11 +443,11 @@ de individuelle knapper så blevet placeret i vores grid. */
 }
 
 .se-mere-produkt4 {
-    grid-area: 42 / 1 / span 2 / span 3;
+    grid-area: 42 / 1 / span 2 / span 2;
 }
 
 .wishlist-produkt4 {
-    grid-area: 45 / 1 / span 1 / span 3;
+    grid-area: 43 / 1 / span 2 / span 3;
 }
 
 
@@ -465,11 +462,11 @@ de individuelle knapper så blevet placeret i vores grid. */
 }
 
 .se-mere-produkt5 {
-    grid-area: 48 / 4 / span 2 / span 3;
+    grid-area: 48 / 4 / span 2 / span 2;
 }
 
 .wishlist-produkt5 {
-    grid-area: 51 / 4 / span 1 / span 3;
+    grid-area: 49 / 4 / span 2 / span 3;
 }
 
 
@@ -484,11 +481,11 @@ de individuelle knapper så blevet placeret i vores grid. */
 }
 
 .se-mere-produkt6 {
-    grid-area: 54 / 1 / span 2 / span 3;
+    grid-area: 54 / 1 / span 2 / span 2;
 }
 
 .wishlist-produkt6 {
-    grid-area: 57 / 1 / span 1 / span 3;
+    grid-area: 55 / 1 / span 2 / span 3;
 }
 
 
@@ -503,11 +500,11 @@ de individuelle knapper så blevet placeret i vores grid. */
 }
 
 .se-mere-produkt7 {
-    grid-area: 63 / 4 / span 2 / span 3;
+    grid-area: 63 / 4 / span 2 / span 2;
 }
 
 .wishlist-produkt7 {
-    grid-area: 66 / 4 / span 1 / span 3;
+    grid-area: 64 / 4 / span 2 / span 3;
 }
 
 
@@ -521,11 +518,11 @@ de individuelle knapper så blevet placeret i vores grid. */
 }
 
 .se-mere-produkt8 {
-    grid-area: 68 / 1 / span 2 / span 3;
+    grid-area: 68 / 1 / span 2 / span 2;
 }
 
 .wishlist-produkt8 {
-    grid-area: 71 / 1 / span 1 / span 3;
+    grid-area: 69 / 1 / span 2 / span 3;
 }
 
 
@@ -541,11 +538,11 @@ de individuelle knapper så blevet placeret i vores grid. */
 }
 
 .se-mere-produkt9 {
-    grid-area: 76 / 4 / span 2 / span 3;
+    grid-area: 76 / 4 / span 2 / span 2;
 }
 
 .wishlist-produkt9 {
-    grid-area: 79 / 4 / span 1 / span 3;
+    grid-area: 77 / 4 / span 2 / span 3;
 }
 
 
