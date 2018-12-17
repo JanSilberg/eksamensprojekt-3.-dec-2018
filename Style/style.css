@@ -790,6 +790,13 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 
 
+#ol-jkm {
+    grid-area: 18 / 3 / span 3 / span 4;
+    width: 30%;
+    justify-self: center;
+    opacity: .5;
+}
+
 
 /* #endregion */
 
