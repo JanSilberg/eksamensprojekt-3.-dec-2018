@@ -750,6 +750,24 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 
 
+.ol-navn1 {
+    grid-area: 15 / 1 / span 2 / span 4;
+    padding: 10px 56px;
+}
+
+.ol-navn1:hover {
+    transform: scale(1.1);
+}
+
+
+
+.ol-navn2 {
+    grid-area: 18 / 1 / span 2 / span 4;
+}
+
+.ol-navn2:hover {
+    transform: scale(1.1);
+}
 
 
 
