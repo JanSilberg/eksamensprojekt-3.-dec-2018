@@ -324,7 +324,7 @@ nav ul li a:hover {
 #santa {
     /* grid-area: 12 / 1 / span 4 / span 6; */
     position: absolute;
-    top: 80%;
+    top: 70%;
     width: 70%;
     animation: santajump 5s ease-in-out infinite;
     transform: rotateY(180deg);
@@ -334,9 +334,9 @@ nav ul li a:hover {
 @keyframes santajump {
     0% {left: -40%}
     25% {left: 20%; top: 60%;}
-    50% {left: 130%; top: 80%;}
+    50% {left: 40%; top: 70%;}
     75% {left: 20%; top: 60%; transform: rotateY(0deg)}
-    100% {left: -40%; left: -40%; }
+    100% {left: -40%;}
 }
 
 
