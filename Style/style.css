@@ -714,13 +714,10 @@ de individuelle knapper så blevet placeret i vores grid. */
 /* #region Ønskelister */
 
 #ol-titel {
-    grid-area: 6 / 1 / span 5 / span 6;
+    grid-area: 4 / 1 / span 5 / span 6;
     width: 50%;
     justify-self: center;
 }
-
-
-
 
 
 
@@ -728,46 +725,68 @@ de individuelle knapper så blevet placeret i vores grid. */
     width: 30%;
 }
 
+.ol-checkbox {
+    width: 50%;
+}
+
+
+
+
 .ol-fb {
-    grid-area: 11 / 2 / span 4 / span 3;
+    grid-area: 7 / 2 / span 4 / span 3;
     justify-self: left;
     width: 32.5%;
 }
 
 .ol-mail {
-    grid-area: 11 / 2 / span 4 / span 4;
+    grid-area: 7 / 2 / span 4 / span 4;
     justify-self: center;
 }
 
 .ol-link {
-    grid-area: 11 / 3 / span 4 / span 3;
+    grid-area: 7 / 3 / span 4 / span 3;
     justify-self: right;
     width: 36%;
 }
 
 
-
-
+#ol-br-id {
+    grid-area: 10 / 1 / span 2 / span 6;
+    justify-self: center;
+}
 
 
 .ol-navn1 {
-    grid-area: 15 / 1 / span 2 / span 4;
-    padding: 10px 56px;
+    grid-area: 12 / 1 / span 2 / span 4;
+    padding: 20px 56px;
 }
 
 .ol-navn1:hover {
     transform: scale(1.1);
 }
 
+.ol-cb1 {
+    grid-area: 12 / 5 / span 2 / span 3;
+}
+
+
+
 
 
 .ol-navn2 {
-    grid-area: 18 / 1 / span 2 / span 4;
+    grid-area: 15 / 1 / span 2 / span 4;
+    padding-top: 20px
 }
 
 .ol-navn2:hover {
     transform: scale(1.1);
 }
+
+.ol-cb2 {
+    grid-area: 15 / 5 / span 2 / span 3;
+
+}
+
 
 
 
