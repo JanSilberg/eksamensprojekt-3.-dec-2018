@@ -38,35 +38,41 @@ Trello
 # Design og programmering af digitalt indhold 1
 "Fagelementet beskæftiger sig med design, programmering og produktion af enkle digitale indholdsløsninger til udvalgte medieplatforme. I fagelementet fokuseres på produktion af enkelt indhold til medieplatforme med afsæt i datadrevet brugerforståelse.
 Løsninger designes, programmeres og produceres med udgangspunkt i indholds- og forretningsstrategi, ligesom der introduceres til centrale teknologier og forretningsmodeller der indgår i design og programmering af digitalt indhold."
-Forretningsforståelse
+
+## Forretningsforståelse
 Business Model Canvas
 Board of Innovation Business Modelling
 Forretningsmål
 USP og værdier
-Brugerforståelse
+
+## Brugerforståelse
 Brugerundersøgelser
 Dataindsamling
 User-centreret design (user stories, segmentering, persona, scenarios)
-Testmetoder
+
+## Testmetoder
 Brugervenlighed
 Accepttest
 Experttest
 Koncepttest
 Associationstest
-Modellering
+
+## Modellering
 Informationsarkitektur (IA)
 Jesse James Garrett “Elements of User Experience”
 UX/UI
 Chunking (7 +/- 2)
 Sitemaps
-Kommunikation
+
+## Kommunikation
 Ethos/Pathos/Logos
 Social Proof
 Maslow
 Uses and Gratifications Theory
 Implicit egotism
 AIDA
-Grundlæggende Medieproduktion
+
+## Grundlæggende Medieproduktion
 Videoproduktion
 Billedebehandling
 Grafik
