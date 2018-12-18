@@ -122,27 +122,27 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
 .baggrund {
     z-index: -8;
     position: absolute;
-    width: 100%;
+    width: 119%;
     max-width: 200%;
     top: 1%;
 }
 
 .baggrund2 {
-    grid-area: 20 / 1 / span 22 / span 6;
-    width: 110%;
-    max-width: 120%;
+    grid-area: 20 / 1 / span 25 / span 6;
+    width: 150%;
+    max-width: 150%;
     z-index: -9;
 }
 
 .baggrund3 {
-    grid-area: 40 / 1 / span 22 / span 6;
+    grid-area: 45 / 1 / span 22 / span 6;
     width: 110%;
     max-width: 120%;
     z-index: -9;
 }
 
 .baggrund4 {
-    grid-area: 61 / 1 / span 20 / span 6;
+    grid-area: 61 / 1 / span 17 / span 6;
     width: 100%;
     z-index: -9;
 }
@@ -313,6 +313,8 @@ nav ul li a:hover {
     width: 110%;
     max-width: 120%;
     justify-self: center;
+    position: relative;
+    top: -5%;
 }
 
 
@@ -326,7 +328,7 @@ nav ul li a:hover {
 #santa {
     /* grid-area: 12 / 1 / span 4 / span 6; */
     position: absolute;
-    top: 70%;
+    top: 80%;
     width: 70%;
     animation: santajump 5s ease-in-out infinite;
     transform: rotateY(180deg);
@@ -335,9 +337,9 @@ nav ul li a:hover {
 
 @keyframes santajump {
     0% {left: -40%}
-    25% {left: 20%; top: 60%;}
-    50% {left: 40%; top: 70%;}
-    75% {left: 20%; top: 60%; transform: rotateY(0deg)}
+    25% {left: 20%; top: 70%;}
+    50% {left: 40%; top: 80%;}
+    75% {left: 20%; top: 70%; transform: rotateY(0deg)}
     100% {left: -40%;}
 }
 
@@ -355,9 +357,47 @@ nav ul li a:hover {
 }
 
 
+.grankogle {
+    grid-area: 42 / 3 / span 2 / span 3;
+    width: 40%;
+    justify-self: right;
+    opacity: .5;
+    transform: rotate(-24deg);
+}
 
+.julekage {
+    grid-area: 29 / 4 / span 2 / span 2;
+    width: 50%;
+    justify-self: center;
+    opacity: .5;
+}
 
+.kaffe {
+    grid-area: 35 / 1 / span 2 / span 2;
+    width: 50%;
+    justify-self: center;
+    opacity: .5;
+}
 
+.kage2 {
+    grid-area: 49 / 2 / span 2 / span 2;
+    width: 50%;
+    opacity: .5;
+}
+
+.gran {
+    grid-area: 54 / 4 / span 2 / span 2;
+    width: 50%;
+    justify-self: right;
+    opacity: .5;
+}
+
+.julekrans2 {
+    grid-area: 71 / 1 / span 3 / span 2;
+    width: 60%;
+    justify-self: center;
+    opacity: .5;
+}
 
 
 
@@ -365,7 +405,7 @@ nav ul li a:hover {
 de individuelle knapper så blevet placeret i vores grid. */
 
 .se-mere {
-    width: 40%;
+    width: 30%;
     justify-self: center;
 }
 
@@ -404,6 +444,7 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 .se-mere-produkt1 {
     grid-area: 26 / 4 / span 2 / span 2;
+    align-self: center;
 }
 
 .wishlist-produkt1 {
@@ -416,18 +457,28 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 
 /* Produkt 2 */
+
+.produkt2-tekst {
+    grid-area: 31 / 1 / span 8 / span 3;
+    text-align: right;
+}
+
+
 .produkt2 {
-    grid-area: 29 / 4 / span 6 / span 3;
+    grid-area: 31 / 4 / span 6 / span 3;
     width: 70%;
     justify-self: center;
 }
 
 .se-mere-produkt2 {
-    grid-area: 29 / 1 / span 2 / span 2;
+    grid-area: 32 / 2 / span 2 / span 2;
+    justify-self: right;
+    align-self: center;
 }
 
 .wishlist-produkt2 {
-    grid-area: 30 / 1 / span 2 / span 3;
+    grid-area: 33 / 1 / span 2 / span 3;
+    justify-self: right;
 }
 
 
@@ -435,56 +486,71 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 
 /* Produkt 3 */
+
+.produkt3-tekst {
+    grid-area: 37 / 1 / span 8 / span 3;
+    left: 12%;
+    position: relative;
+}
+
 .produkt3 {
-    grid-area: 35 / 1 / span 5 / span 5;
+    grid-area: 39 / 1 / span 5 / span 5;
     width: 60%;
     left: 7%;
     position: relative;
 }
 
 .se-mere-produkt3 {
-    grid-area: 35 / 4 / span 2 / span 2;
+    grid-area: 39 / 4 / span 2 / span 2;
+    align-self: center;
 }
 
 .wishlist-produkt3 {
-    grid-area: 36 / 4 / span 2 / span 3;
+    grid-area: 40 / 4 / span 2 / span 3;
 }
 
 
 
 
 /* Produkt 4 */
+
+.produkt4-tekst {
+    grid-area: 46 / 1 / span 8 / span 3;
+    text-align: right;
+}
+
 .produkt4 {
-    grid-area: 42 / 4 / span 6 / span 3;
+    grid-area: 46 / 4 / span 6 / span 3;
     width: 70%;
     justify-self: center;
 }
 
-.se-mere-produkt4 {
-    grid-area: 42 / 1 / span 2 / span 2;
-}
+
 
 .wishlist-produkt4 {
-    grid-area: 43 / 1 / span 2 / span 3;
+    grid-area: 47 / 1 / span 2 / span 3;
+    justify-self: right;
 }
 
 
 
 
 /* Produkt 5 */
+
+.produkt5-tekst {
+    grid-area: 51 / 4 / span 8 / span 3;
+    justify-self: center;
+}
+
 .produkt5 {
-    grid-area: 48 / 1 / span 5 / span 5;
+    grid-area: 51 / 1 / span 5 / span 5;
     width: 50%;
     left: 7%;
     position: relative;
 }
 
-.se-mere-produkt5 {
-    grid-area: 48 / 4 / span 2 / span 2;
-}
-
 .wishlist-produkt5 {
-    grid-area: 49 / 4 / span 2 / span 3;
+    grid-area: 52 / 4 / span 2 / span 3;
 }
 
 
@@ -492,33 +558,38 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 
 /* Produkt 6 */
+
+.produkt6-tekst {
+    grid-area: 56 / 1 / span 8 / span 3;
+    text-align: right;
+}
+
 .produkt6 {
-    grid-area: 54 / 4 / span 6 / span 3;
+    grid-area: 56 / 4 / span 6 / span 3;
     width: 70%;
     justify-self: center;
 }
 
-.se-mere-produkt6 {
-    grid-area: 54 / 1 / span 2 / span 2;
-}
-
 .wishlist-produkt6 {
-    grid-area: 55 / 1 / span 2 / span 3;
+    grid-area: 57 / 1 / span 2 / span 3;
+    justify-self: right;
 }
 
 
 
 
 /* Produkt 7 */
+
+.produkt7-tekst {
+    grid-area: 64 / 4 / span 8 / span 3;
+    justify-self: center;
+}
+
 .produkt7 {
     grid-area: 64 / 1 / span 5 / span 5;
     width: 50%;
     left: 7%;
     position: relative;
-}
-
-.se-mere-produkt7 {
-    grid-area: 64 / 4 / span 2 / span 2;
 }
 
 .wishlist-produkt7 {
@@ -529,18 +600,21 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 
 /* Produkt 8 */
+
+.produkt8-tekst {
+    grid-area: 69 / 1 / span 8 / span 3;
+    text-align: right;
+}
+
 .produkt8 {
     grid-area: 69 / 4 / span 7 / span 3;
     width: 50%;
     justify-self: center;
 }
 
-.se-mere-produkt8 {
-    grid-area: 69 / 1 / span 2 / span 2;
-}
-
 .wishlist-produkt8 {
     grid-area: 70 / 1 / span 2 / span 3;
+    justify-self: right;
 }
 
 
@@ -548,19 +622,21 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 
 /* Produkt 9 */
+
+.produkt9-tekst {
+    grid-area: 74 / 4 / span 2 / span 3;
+    justify-self: center;
+}
+
 .produkt9 {
-    grid-area: 76 / 1 / span 4 / span 5;
+    grid-area: 74 / 1 / span 3 / span 5;
     width: 50%;
     left: 7%;   
     position: relative;
 }
 
-.se-mere-produkt9 {
-    grid-area: 76 / 4 / span 2 / span 2;
-}
-
 .wishlist-produkt9 {
-    grid-area: 77 / 4 / span 2 / span 3;
+    grid-area: 75 / 4 / span 2 / span 3;
 }
 
 
@@ -742,7 +818,7 @@ de individuelle knapper så blevet placeret i vores grid. */
 }
 
 .ol-checkbox {
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -774,7 +850,8 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 .ol-navn1 {
     grid-area: 12 / 1 / span 2 / span 4;
-    padding: 20px 56px;
+    padding: 12px 56px;
+    height: 24px;
 }
 
 .ol-navn1:hover {
@@ -791,7 +868,8 @@ de individuelle knapper så blevet placeret i vores grid. */
 
 .ol-navn2 {
     grid-area: 15 / 1 / span 2 / span 4;
-    padding: 20px 50px;
+    padding: 12px 50px;
+    height: 24px;
 }
 
 .ol-navn2:hover {

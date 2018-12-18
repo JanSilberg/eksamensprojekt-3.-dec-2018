@@ -23,50 +23,56 @@ Løsninger designes og programmeres under anvendelse af udvalgt udviklingsmetode
 
 ## Processen
 - Scrum (Roller, møder, iteration, backlog, sprints og sprintlog, estimering og prioritering af opgaver)
-Prototyping
+- Prototyping
 
 ## Programlære
-Adobe Photoshop
-Adobe illustrator
-Adobe Experience Designer
-Invision
-Visual Studio Code
-GitHub
-Trello
+- Adobe Photoshop
+- Adobe illustrator
+- Adobe Experience Designer
+- Invision
+- Visual Studio Code
+- GitHub
+- Trello
 
 
 # Design og programmering af digitalt indhold 1
 "Fagelementet beskæftiger sig med design, programmering og produktion af enkle digitale indholdsløsninger til udvalgte medieplatforme. I fagelementet fokuseres på produktion af enkelt indhold til medieplatforme med afsæt i datadrevet brugerforståelse.
 Løsninger designes, programmeres og produceres med udgangspunkt i indholds- og forretningsstrategi, ligesom der introduceres til centrale teknologier og forretningsmodeller der indgår i design og programmering af digitalt indhold."
-Forretningsforståelse
-Business Model Canvas
-Board of Innovation Business Modelling
-Forretningsmål
-USP og værdier
-Brugerforståelse
-Brugerundersøgelser
-Dataindsamling
-User-centreret design (user stories, segmentering, persona, scenarios)
-Testmetoder
-Brugervenlighed
-Accepttest
-Experttest
-Koncepttest
-Associationstest
-Modellering
-Informationsarkitektur (IA)
-Jesse James Garrett “Elements of User Experience”
-UX/UI
-Chunking (7 +/- 2)
-Sitemaps
-Kommunikation
-Ethos/Pathos/Logos
-Social Proof
-Maslow
-Uses and Gratifications Theory
-Implicit egotism
-AIDA
-Grundlæggende Medieproduktion
-Videoproduktion
-Billedebehandling
-Grafik
+
+## Forretningsforståelse
+- Business Model Canvas
+- Board of Innovation Business Modelling
+- Forretningsmål
+- USP og værdier
+
+## Brugerforståelse
+- Brugerundersøgelser
+- Dataindsamling
+- User-centreret design (user stories, segmentering, persona, scenarios)
+
+## Testmetoder
+- Brugervenlighed
+- Accepttest
+- Experttest
+- Koncepttest
+- Associationstest
+
+## Modellering
+- Informationsarkitektur (IA)
+- Jesse James Garrett “Elements of User Experience”
+- UX/UI
+- Chunking (7 +/- 2)
+- Sitemaps
+
+## Kommunikation
+- Ethos/Pathos/Logos
+- Social Proof
+- Maslow
+- Uses and Gratifications Theory
+- Implicit egotism
+- AIDA
+
+## Grundlæggende Medieproduktion
+- Videoproduktion
+- Billedebehandling
+- Grafik
