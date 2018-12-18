@@ -372,7 +372,32 @@ nav ul li a:hover {
     opacity: .5;
 }
 
+.kaffe {
+    grid-area: 35 / 1 / span 2 / span 2;
+    width: 50%;
+    justify-self: center;
+    opacity: .5;
+}
 
+.kage2 {
+    grid-area: 49 / 2 / span 2 / span 2;
+    width: 50%;
+    opacity: .5;
+}
+
+.gran {
+    grid-area: 54 / 4 / span 2 / span 2;
+    width: 50%;
+    justify-self: right;
+    opacity: .5;
+}
+
+.julekrans2 {
+    grid-area: 71 / 1 / span 3 / span 2;
+    width: 60%;
+    justify-self: center;
+    opacity: .5;
+}
 
 
 
