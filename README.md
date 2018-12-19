@@ -2,7 +2,7 @@
 Eksamensprojekt 3. december 2018 Maja, Jan
 
 
-Mappeerne "produkt detaljer" og "images" er henvist til i koden.
+Mapperne "produkt detaljer" og "images" er henvist til i koden.
 
 
 
