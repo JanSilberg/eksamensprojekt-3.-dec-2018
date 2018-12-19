@@ -326,7 +326,6 @@ nav ul li a:hover {
 }
 
 #santa {
-    /* grid-area: 12 / 1 / span 4 / span 6; */
     position: absolute;
     top: 80%;
     width: 70%;
