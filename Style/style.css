@@ -325,6 +325,7 @@ nav ul li a:hover {
     max-width: 150%;
 }
 
+/* Vores julemands-animation */
 #santa {
     position: absolute;
     top: 80%;
