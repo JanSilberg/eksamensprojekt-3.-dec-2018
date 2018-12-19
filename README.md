@@ -2,6 +2,8 @@
 Eksamensprojekt 3. december 2018 Maja, Jan
 
 
+Mappeerne "produkt detaljer" og "images" er henvist til i koden.
+
 
 
  - CSS filer skal ligge i en mappe kaldet "Style", så alle html referencer til CSS filerne ser ens ud.
