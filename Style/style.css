@@ -75,7 +75,8 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #vend   {
 
 
 
-
+/* Fortæller brugeren, at siden skal ses i smartphone størrelse,
+Hvis ens viewport er over 812px */
 #na {
     grid-area: 3 / 2 / span 1 / span 4;
     justify-self: center;
@@ -109,13 +110,23 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #na   {
 }
 
 
+
+
+
+/* Fortæller brugeren, at de skal vende telefonen tilbage til lodret position */
 #vend {
     grid-area: 2 / 1 / span 1 / span 6;
     justify-self: center;
     display: unset;
 }
 
+
+
 }
+
+
+
+
 
 /* #endregion */
 
@@ -142,13 +153,19 @@ body {
     background: lightgray;
 }
 
+
+
 img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     display: unset;
 }
 
+
+
 #na {
    display: none;
 }
+
+
 
 
 
@@ -181,6 +198,9 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
 }
 
 
+
+
+
 .red-box {
     justify-self: center;
     text-decoration: none;
@@ -189,6 +209,9 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     border-radius: 15px;
     padding: 10px 50px;
 }
+
+
+
 
 
 /* Lodrette streger til vores bottom menu (nav) 
@@ -204,11 +227,15 @@ se "#region Footer" for nav */
 
 
 
+
+
 /* Vores play knap på de første 3 produkter */
 .play-knap {
     width: 30%;
     justify-self: center;
 }
+
+
 
 
 
