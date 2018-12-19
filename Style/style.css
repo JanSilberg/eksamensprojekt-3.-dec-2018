@@ -204,6 +204,25 @@ se "#region Footer" for nav */
 
 
 
+/* Vores play knap på de første 3 produkter */
+.play-knap {
+    width: 30%;
+    justify-self: center;
+}
+
+
+
+/* Vores "tilføj" checkboxe på forsiden */
+.wishlist {
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
+
 /* #endregion */
 
 
@@ -403,7 +422,6 @@ nav ul li a:hover {
     transform: rotateY(180deg);
 }
 
-
 @keyframes santajump {
     0% {left: -40%}
     25% {left: 20%; top: 70%;}
@@ -421,6 +439,10 @@ nav ul li a:hover {
     width: 86%;
     justify-self: center;
 }
+
+
+
+
 
 #stortgran2 {
     grid-area: 61 / 1 / span 6 / span 6;
@@ -500,23 +522,6 @@ nav ul li a:hover {
 
 
 
-.play-knap {
-    width: 30%;
-    justify-self: center;
-}
-
-.wishlist {
-    width: 50%;
-    justify-self: center;
-    align-self: center;
-}
-
-
-
-
-
-
-
 
 
 
@@ -537,16 +542,15 @@ nav ul li a:hover {
 }
 
 
-
 .se-mere-produkt1 {
     grid-area: 26 / 4 / span 2 / span 2;
     align-self: center;
 }
 
+
 .wishlist-produkt1 {
     grid-area: 27 / 4 / span 2 / span 3;
 }
-
 
 
 
@@ -566,11 +570,13 @@ nav ul li a:hover {
     justify-self: center;
 }
 
+
 .se-mere-produkt2 {
     grid-area: 32 / 2 / span 2 / span 2;
     justify-self: right;
     align-self: center;
 }
+
 
 .wishlist-produkt2 {
     grid-area: 33 / 1 / span 2 / span 3;
@@ -589,6 +595,7 @@ nav ul li a:hover {
     position: relative;
 }
 
+
 .produkt3 {
     grid-area: 39 / 1 / span 5 / span 5;
     width: 60%;
@@ -596,14 +603,17 @@ nav ul li a:hover {
     position: relative;
 }
 
+
 .se-mere-produkt3 {
     grid-area: 39 / 4 / span 2 / span 2;
     align-self: center;
 }
 
+
 .wishlist-produkt3 {
     grid-area: 40 / 4 / span 2 / span 3;
 }
+
 
 
 
@@ -615,6 +625,7 @@ nav ul li a:hover {
     text-align: right;
 }
 
+
 .produkt4 {
     grid-area: 46 / 4 / span 6 / span 3;
     width: 70%;
@@ -622,11 +633,11 @@ nav ul li a:hover {
 }
 
 
-
 .wishlist-produkt4 {
     grid-area: 47 / 1 / span 2 / span 3;
     justify-self: right;
 }
+
 
 
 
@@ -638,12 +649,14 @@ nav ul li a:hover {
     justify-self: center;
 }
 
+
 .produkt5 {
     grid-area: 51 / 1 / span 5 / span 5;
     width: 50%;
     left: 7%;
     position: relative;
 }
+
 
 .wishlist-produkt5 {
     grid-area: 52 / 4 / span 2 / span 3;
@@ -660,16 +673,19 @@ nav ul li a:hover {
     text-align: right;
 }
 
+
 .produkt6 {
     grid-area: 56 / 4 / span 6 / span 3;
     width: 70%;
     justify-self: center;
 }
 
+
 .wishlist-produkt6 {
     grid-area: 57 / 1 / span 2 / span 3;
     justify-self: right;
 }
+
 
 
 
@@ -681,6 +697,7 @@ nav ul li a:hover {
     justify-self: center;
 }
 
+
 .produkt7 {
     grid-area: 64 / 1 / span 5 / span 5;
     width: 50%;
@@ -688,9 +705,11 @@ nav ul li a:hover {
     position: relative;
 }
 
+
 .wishlist-produkt7 {
     grid-area: 65 / 4 / span 2 / span 3;
 }
+
 
 
 
@@ -702,11 +721,13 @@ nav ul li a:hover {
     text-align: right;
 }
 
+
 .produkt8 {
     grid-area: 69 / 4 / span 7 / span 3;
     width: 50%;
     justify-self: center;
 }
+
 
 .wishlist-produkt8 {
     grid-area: 70 / 1 / span 2 / span 3;
@@ -724,6 +745,7 @@ nav ul li a:hover {
     justify-self: center;
 }
 
+
 .produkt9 {
     grid-area: 74 / 1 / span 3 / span 5;
     width: 50%;
@@ -731,9 +753,13 @@ nav ul li a:hover {
     position: relative;
 }
 
+
 .wishlist-produkt9 {
     grid-area: 75 / 4 / span 2 / span 3;
 }
+
+
+
 
 
 /* #endregion */
@@ -760,11 +786,16 @@ nav ul li a:hover {
 
 
 
+
+
 .pd1-overskrift { 
     grid-area: 7 / 1 / span 5 / span 6;
     width: 50%;
     justify-self: center;
 }
+
+
+
 
 
 .pd1-h4 {
@@ -773,9 +804,14 @@ nav ul li a:hover {
 }
 
 
+
+
+
 .pp1-h4 {
     grid-area: 10 / 6 / span 4 / span 4;
 }
+
+
 
 
 
@@ -786,14 +822,12 @@ nav ul li a:hover {
 }
 
 
+
+
+
 .pd1-tekst {
     grid-area: 28 / 2 / span 30 / span 4;
 }
-
-
-
-
-
 
 
 
@@ -827,7 +861,12 @@ nav ul li a:hover {
     color: white;
 }
 
+
+
+
 /* #endregion */
+
+
 
 
 
@@ -845,6 +884,8 @@ nav ul li a:hover {
 
 
 
+
+
 .mp-info {
     grid-area: 25 / 1 / span 4 / span 6;
     padding: 10px 54px;
@@ -857,6 +898,7 @@ nav ul li a:hover {
 
 
 
+
 .mp-admin {
     grid-area: 31 / 1 / span 4 / span 6;
 }
@@ -864,6 +906,7 @@ nav ul li a:hover {
 .mp-admin:hover {
     transform: scale(1.1);
 }
+
 
 
 
@@ -880,11 +923,16 @@ nav ul li a:hover {
 
 
 
+
 .mp-julekrans {
     grid-area: 44 / 1 / span 12 / span 3;
     width: 60%;
     justify-self: center;
 }
+
+
+
+
 
 .mp-santahat {
     grid-area: 17 / 4 / span 8 / span 3;
@@ -892,7 +940,14 @@ nav ul li a:hover {
     justify-self: center;
 }
 
+
+
+
+
 /* #endregion */
+
+
+
 
 
 /* Ønskelister */
@@ -909,13 +964,20 @@ nav ul li a:hover {
 
 
 
+
+
 .ol-links {
     width: 30%;
 }
 
+
+
+
+
 .ol-checkbox {
     width: 40%;
 }
+
 
 
 
@@ -926,10 +988,18 @@ nav ul li a:hover {
     width: 32.5%;
 }
 
+
+
+
+
 .ol-mail {
     grid-area: 7 / 2 / span 4 / span 4;
     justify-self: center;
 }
+
+
+
+
 
 .ol-link {
     grid-area: 7 / 3 / span 4 / span 3;
@@ -938,10 +1008,16 @@ nav ul li a:hover {
 }
 
 
+
+
+
 #ol-br-id {
     grid-area: 10 / 1 / span 2 / span 6;
     justify-self: center;
 }
+
+
+
 
 
 .ol-navn1 {
@@ -979,12 +1055,17 @@ nav ul li a:hover {
 
 
 
+
+
 #ol-jkm {
     grid-area: 18 / 3 / span 3 / span 4;
     width: 30%;
     justify-self: center;
     opacity: .5;
 }
+
+
+
 
 
 /* #endregion */
@@ -1004,11 +1085,16 @@ nav ul li a:hover {
 
 
 
+
+
 #jk-julelys {
     grid-area: 10 / 1 / span 30 / span 6;
     justify-self: center;
     height: 100%;
 }
+
+
+
 
 
 /* #endregion */
@@ -1029,6 +1115,7 @@ nav ul li a:hover {
 
 
 
+
 .club-info {
     border: 1px solid #999999;
     border-radius: 15px;
@@ -1037,9 +1124,15 @@ nav ul li a:hover {
 }
 
 
+
+
+
 #club-spar {
     grid-area: 16 / 1 / span 3 / span 6;
 }
+
+
+
 
 
 #club-sparem {
@@ -1053,6 +1146,8 @@ nav ul li a:hover {
 
 
 
+
+
 #club-happy {
     grid-area: 34 / 1 / span 5 / span 6;
     padding: 10px 28px;
@@ -1062,6 +1157,8 @@ nav ul li a:hover {
     grid-area: 39 / 2 / span 10 / span 4;
     text-align: center;
 }
+
+
 
 
 
