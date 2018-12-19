@@ -1,7 +1,7 @@
 
 /* Såfremt siden skal ses på en computer, så skal den ses som "iphone 6/7/8"
-Computeren kan ikke gengive de præcise samme forhold, som en telefon kan, dette skal der tages forbehold for såfremt, at siden ses på en computer og ikke telefon.
-Nogen ting kan se forskudte og flyttede ud på computer i forhold til mobil. */
+Computeren kan ikke gengive de præcise samme forhold, som en telefon kan,
+ dette skal der tages forbehold for såfremt, at siden ses på en computer og ikke telefon. */
 
 
 
@@ -11,7 +11,7 @@ Nogen ting kan se forskudte og flyttede ud på computer i forhold til mobil. */
 /* #region Standarder som er sat for hele filen */
 
 
-/* Grid wrapper - Indeholder hvordan Grid er sat op */
+/* Grid wrapper */
 .wrapper {
     display: grid;
     margin: 0 auto;
@@ -39,7 +39,7 @@ body {
 
 
 
-/* Vi har valgt, at fjerne prikkeer og padding fra lister som default, da vi ikke skal bruge dette */
+/* Vi har valgt, at fjerne prikkeer og padding fra lister som default.*/
 ol, ul {
     list-style: none;
     padding: 0;
@@ -47,6 +47,13 @@ ol, ul {
 
 
 /* #endregion */
+
+
+
+
+
+
+
 
 
 
@@ -79,6 +86,23 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #vend   {
 /* #endregion */
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet størrelse / Smartphone i landscape mode */
+/* Tablet størrelse / Smartphone i landscape mode */
+/* Tablet størrelse / Smartphone i landscape mode */
+
+/* #region Tablet / landscape mode */
+
 @media only screen and (max-width: 813px) and (orientation: landscape) {
 img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #na   {
     display: none;
@@ -93,6 +117,14 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #na   {
 
 }
 
+/* #endregion */
+
+
+
+
+
+
+
 
 
 
@@ -102,6 +134,7 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form , #na   {
 
 
 @media only screen and (max-width: 813px) and (orientation: portrait) {
+
 
 /* #region Default values */
 
@@ -158,6 +191,18 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
 }
 
 
+/* Lodrette streger til vores bottom menu (nav) 
+se "#region Footer" for nav */
+
+.vl {
+    border-left: 1px solid white;
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    z-index: 2;
+}
+
+
 
 /* #endregion */
 
@@ -184,6 +229,10 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     z-index: 2;
 }
 
+
+
+
+
 .br-logo {
     width: 15%;
     z-index: 2;
@@ -191,6 +240,9 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     top: .6%;
     left: 42.5%;
 }
+
+
+
 
 
 #back {
@@ -204,6 +256,10 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     padding: 5% 5% 5% 5%;
 }
 
+
+
+
+
 #scan {
     align-self: center;
     justify-self: center;
@@ -213,6 +269,10 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     left: 5%;
     z-index: 2;
 }
+
+
+
+
 
 #search {
     align-self: center;
@@ -225,7 +285,14 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     padding: 5% 5% 5% 5%;
 }
 
+
+
 /* #endregion */
+
+
+
+
+
 
 
 /* #region Footer */
@@ -239,16 +306,8 @@ img , p , a , div , h1 , h2 , h3 , h4 , nav , form   {
     z-index: 2;
 }
 
-/* Vi har valgt at lave lodrette streger på nedenstående måde for, at kunne få
-den lodrette streg til, at nå fra top til bund af vores røde baggrund. */
 
-.vl {
-    border-left: 1px solid white;
-    position: fixed;
-    height: 40px;
-    bottom: 0;
-    z-index: 2;
-}
+
 
 .vl-1 {
     left: 25%;
@@ -302,6 +361,9 @@ nav ul li a:hover {
 
 
 
+
+
+
 /* Forside */
 /* Forside */
 /* Forside */
@@ -318,12 +380,19 @@ nav ul li a:hover {
 }
 
 
+
+
+
 #onskebogen {
     grid-area: 9 / 1 / span 5 / span 6;
     justify-self: center;
     width: 95%;
     max-width: 150%;
 }
+
+
+
+
 
 /* Vores julemands-animation */
 #santa {
@@ -344,6 +413,9 @@ nav ul li a:hover {
 }
 
 
+
+
+
 #stortgran {
     grid-area: 21 / 1 / span 6 / span 6;
     width: 86%;
@@ -357,6 +429,9 @@ nav ul li a:hover {
 }
 
 
+
+
+
 .grankogle {
     grid-area: 42 / 3 / span 2 / span 3;
     width: 40%;
@@ -365,12 +440,20 @@ nav ul li a:hover {
     transform: rotate(-24deg);
 }
 
+
+
+
+
 .julekage {
     grid-area: 29 / 4 / span 2 / span 2;
     width: 50%;
     justify-self: center;
     opacity: .5;
 }
+
+
+
+
 
 .kaffe {
     grid-area: 35 / 1 / span 2 / span 2;
@@ -379,11 +462,19 @@ nav ul li a:hover {
     opacity: .5;
 }
 
+
+
+
+
 .kage2 {
     grid-area: 49 / 2 / span 2 / span 2;
     width: 50%;
     opacity: .5;
 }
+
+
+
+
 
 .gran {
     grid-area: 54 / 4 / span 2 / span 2;
@@ -391,6 +482,10 @@ nav ul li a:hover {
     justify-self: right;
     opacity: .5;
 }
+
+
+
+
 
 .julekrans2 {
     grid-area: 71 / 1 / span 3 / span 2;
@@ -401,10 +496,11 @@ nav ul li a:hover {
 
 
 
-/* .se-mere og .wishlist definerer stylingen på vores knapper, og nedenunder er 
-de individuelle knapper så blevet placeret i vores grid. */
 
-.se-mere {
+
+
+
+.play-knap {
     width: 30%;
     justify-self: center;
 }
