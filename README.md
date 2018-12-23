@@ -1,9 +1,19 @@
 # Eksamensprojekt-3.-dec-2018
 Eksamensprojekt 3. december 2018 Maja, Jan
+<br>
+<br>
 
+
+Scrum sprints overblik: https://github.com/JanSilberg/eksamensprojekt-3.-dec-2018/wiki/Scrum-Sprints
+
+<br>
+<br>
+<br>
 
 Mapperne "produkt detaljer" og "images" er henvist til i koden.
 
+<br>
+<br>
 
 
  - CSS filer skal ligge i en mappe kaldet "Style", så alle html referencer til CSS filerne ser ens ud.
